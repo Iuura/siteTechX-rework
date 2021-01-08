@@ -7,10 +7,10 @@ function extinde(x) {
   if (deExtins[x].classList.contains("ascuns")) {
     deExtins[x].classList.remove("ascuns");
     extindere[x].innerHTML =
-      '<img src="/poze/arrow-circle-up.svg" alt="extinde" />';
+      '<img src="poze/arrow-circle-up.svg" alt="extinde" />';
   } else {
     deExtins[x].classList.add("ascuns");
     extindere[x].innerHTML =
-      '<img src="/poze/arrow-circle-down.svg" alt="extinde" />';
+      '<img src="poze/arrow-circle-down.svg" alt="extinde" />';
   }
 }
