@@ -1,0 +1,44 @@
+body{
+    color: black;
+    line-height: 1.5;
+    margin: 0%;
+    height: 100vh;
+    width: fit-content;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: auto 10fr auto;
+}
+footer{
+    display: grid;
+    background-color: rgb(36, 36, 36);
+}
+svg{
+    fill: rgb(230, 230, 230);
+}
+aside{
+    margin-top: 4vh;
+    display: inline;
+    width: auto;
+    grid-row: 2/-1;
+    float: right;
+    margin-right: 4vw;
+}
+#copyright{
+    margin-bottom: 2vh;
+    width: 100%;
+    color: rgb(185, 184, 184);
+    font-size: 80%;
+    display: grid;
+    align-items: center;
+}
+#linkuri{
+    display: inline-block;
+    grid-row: 1/2;
+    margin: 1vh;
+    margin-left: 4vw;
+    font-size: large;
+}
+.linkFooter{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
