@@ -74,7 +74,9 @@ main {
   flex-wrap: wrap;
 }
 main div {
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 2vw;
 }
 #descriere p,
 .membru p,
@@ -82,6 +84,7 @@ main div {
   text-align: justify;
   margin-left: 3vw;
   margin-right: 4vw;
+  font-size: 130%;
 }
 #pagini {
   margin-left: 4vw;
@@ -100,14 +103,18 @@ header h1 a:hover {
   background-color: #4e4e4e;
   color: whitesmoke;
   border-top: solid 1px #4e4e4e;
-  border-radius: 90%/0vh 5vh 0vh 10vh;
+  /*border-radius: 80%/5vh 0vh 8vh 0vh;*/
+  border-radius: 5vh;
 }
 .galbui {
   background-color: #fddb3a;
   color: black;
   border-top: solid 1px #fddb3a;
-  border-radius: 100%/9vh 0vh 5vh 0vh;
+  border-radius: 5vh;
+  /*border-radius: 80%/0vh 8vh 0vh 5vh;*/
 }
-
+h2 {
+  font-size: 200%;
+}
 #mentori {
 }
