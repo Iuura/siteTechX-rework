@@ -1,6 +1,8 @@
 const extindere = document.querySelectorAll(".extindere");
 const deExtins = document.querySelectorAll(".deExtins");
+const butonMeniu = document.querySelector("#butonMeniu");
 
+//Extindere si ascundere sectiuni
 for (let i = 0; i < extindere.length; i++) {
    extindere[i].parentElement.addEventListener("click", () => extinde(i));
 }
@@ -43,6 +45,18 @@ function extinde(x) {
          }
          break;
    }
+}
 
-   //console.log(extindere[x].parentElement.classList[0]);
+//Meniu pentru ecrane mici
+butonMeniu.addEventListener("click", meniuMobil);
+
+function meniuMobil() {
+   const meniu = document.querySelector("#meniu");
+   switch (meniu.style.display == "" || meniu.style.display == "none") {
+      case true:
+         meniu.style.display = "block";
+         break;
+      case false:
+         meniu.style.display = "none";
+   }
 }

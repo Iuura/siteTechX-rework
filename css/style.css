@@ -1,3 +1,39 @@
+@media only screen and (max-width: 768px) {
+   #mobil {
+      display: flex;
+      justify-content: space-evenly;
+   }
+   #pagini {
+      display: none;
+   }
+}
+@media only screen and (min-width: 769px) {
+   #mobil,
+   #meniu {
+      display: none;
+   }
+}
+#butonMeniu {
+   cursor: pointer;
+}
+#mobil {
+   flex-direction: row;
+   align-items: center;
+}
+#meniu {
+   padding-top: 3vh;
+   flex-direction: column;
+   gap: 2.3vh;
+   text-align: center;
+   display: none;
+}
+
+#meniu a {
+   color: black;
+   text-align: center;
+   font-size: xx-large;
+}
+
 .ascuns {
    display: none;
 }
@@ -31,6 +67,7 @@ header {
    border-top: solid 1px black;
    border-radius: 100%/0 0 10vh 1vh;
    margin-bottom: 4vw;
+   z-index: 3;
 }
 svg {
    fill: rgb(230, 230, 230);
