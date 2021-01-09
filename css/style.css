@@ -1,120 +1,145 @@
 .ascuns {
-  display: none;
+   display: none;
 }
 
 html {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background-color: #f6f4e6;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   background-color: #f6f4e6;
 }
 body {
-  color: black;
-  line-height: 1.5;
-  margin: 0%;
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-rows: auto 10fr auto;
-  font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
+   color: black;
+   line-height: 1.5;
+   margin: 0%;
+   height: 100vh;
+   width: 100vw;
+   display: grid;
+   grid-template-rows: auto 10fr auto;
+   font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute;
+   user-select: none;
 }
 footer {
-  display: grid;
-  background-color: rgb(55, 55, 55);
-  border-top: solid 1px black;
-  border-radius: 100%/10vh 1vh 0 0;
+   display: grid;
+   background-color: rgb(55, 55, 55);
+   border-top: solid 1px black;
+   border-radius: 100%/10vh 1vh 0 0;
+   z-index: 3;
 }
 header {
-  background-color: #fddb3a;
-  border-top: solid 1px black;
-  border-radius: 100%/0 0 10vh 1vh;
-  margin-bottom: 4vw;
+   background-color: #fddb3a;
+   border-top: solid 1px black;
+   border-radius: 100%/0 0 10vh 1vh;
+   margin-bottom: 4vw;
 }
 svg {
-  fill: rgb(230, 230, 230);
+   fill: rgb(230, 230, 230);
 }
 aside {
-  margin-top: 4vh;
-  display: inline;
-  width: auto;
-  grid-row: 2/-1;
-  float: right;
-  margin-right: 4vw;
+   margin-top: 4vh;
+   display: inline;
+   width: auto;
+   grid-row: 2/-1;
+   float: right;
+   margin-right: 4vw;
 }
 #copyright {
-  margin-bottom: 2vh;
-  width: 100%;
-  color: rgb(185, 184, 184);
-  font-size: 80%;
-  display: grid;
-  align-items: center;
+   margin-bottom: 2vh;
+   width: 100%;
+   color: rgb(185, 184, 184);
+   font-size: 80%;
+   display: grid;
+   align-items: center;
 }
 #linkuri {
-  display: inline-block;
-  grid-row: 1/2;
-  margin: 1vh;
-  margin-left: 4vw;
-  font-size: large;
+   display: inline-block;
+   grid-row: 1/2;
+   margin: 1vh;
+   margin-left: 4vw;
+   font-size: large;
 }
 a {
-  text-decoration: none;
+   text-decoration: none;
 }
 #linkuri li,
 #linkuri a {
-  color: rgb(230, 230, 230);
-  list-style-type: none;
+   color: rgb(230, 230, 230);
+   list-style-type: none;
 }
 main {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 main div {
-  margin-bottom: 2vh;
-  margin-left: 1vw;
-  margin-right: 2vw;
+   margin-bottom: 2vh;
+   margin-left: 1vw;
+   margin-right: 2vw;
+}
+#descriere p {
+   margin-left: 3vw;
+   margin-right: 4vw;
+   text-align: justify;
 }
 #descriere p,
 .membru p,
 .membruR p {
-  text-align: justify;
-  margin-left: 3vw;
-  margin-right: 4vw;
-  font-size: 130%;
+   font-size: 125%;
 }
 #pagini {
-  margin-left: 4vw;
+   margin-left: 4vw;
 }
 header h1 a {
-  color: black;
-  margin-left: 5vw;
+   color: black;
+   margin-left: 5vw;
 }
 header h1 a:hover {
-  text-decoration: underline wavy;
+   text-decoration: underline wavy;
 }
 .extindere {
-  cursor: pointer;
+   cursor: pointer;
+   margin-bottom: 1vh;
 }
 .intunecat {
-  background-color: #4e4e4e;
-  color: whitesmoke;
-  border-top: solid 1px #4e4e4e;
-  /*border-radius: 80%/5vh 0vh 8vh 0vh;*/
-  border-radius: 5vh;
+   background-color: #4e4e4e;
+   color: whitesmoke;
+   border-top: solid 1px #4e4e4e;
+   border-radius: 5vh;
 }
 .galbui {
-  background-color: #fddb3a;
-  color: black;
-  border-top: solid 1px #fddb3a;
-  border-radius: 5vh;
-  /*border-radius: 80%/0vh 8vh 0vh 5vh;*/
+   background-color: #fddb3a;
+   color: black;
+   border-top: solid 1px #fddb3a;
+   border-radius: 5vh;
 }
 h2 {
-  font-size: 200%;
+   font-size: 200%;
 }
-#mentori {
+h3 {
+   font-size: 150%;
+}
+.desc {
+   margin: 1vh;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+img {
+   border-radius: 2vh;
+}
+.membru,
+.membruR {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 2vw;
+   align-content: flex-start;
+   align-items: center;
+   text-align: center;
+   box-shadow: 0px 0px 10px black;
+}
+.membru {
+   flex-direction: row;
+}
+.membruR {
+   flex-direction: row-reverse;
 }
