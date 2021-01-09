@@ -54,7 +54,7 @@ function meniuMobil() {
    const meniu = document.querySelector("#meniu");
    switch (meniu.style.display == "" || meniu.style.display == "none") {
       case true:
-         meniu.style.display = "block";
+         meniu.style.display = "flex";
          break;
       case false:
          meniu.style.display = "none";
