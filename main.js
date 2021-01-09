@@ -49,14 +49,9 @@ function extinde(x) {
 
 //Meniu pentru ecrane mici
 butonMeniu.addEventListener("click", meniuMobil);
-
+const meniu = document.querySelector("#meniu");
+if (screen.width > 768) meniu.style.display = "none";
 function meniuMobil() {
-   const meniu = document.querySelector("#meniu");
-   switch (meniu.style.display == "" || meniu.style.display == "none") {
-      case true:
-         meniu.style.display = "flex";
-         break;
-      case false:
-         meniu.style.display = "none";
-   }
+   if (meniu.style.display === "flex") meniu.style.display = "none";
+   else meniu.style.display = "flex";
 }
