@@ -1,3 +1,10 @@
+:root {
+   --main-color: #679bf1;
+   --secondary-color: #ffc40a;
+   --accent-color: #2f2e2c;
+   --light-color: whitesmoke;
+}
+
 @media only screen and (max-width: 999px) {
    #mobil {
       display: flex;
@@ -26,10 +33,16 @@
    gap: 2.3vh;
    text-align: center;
    display: none;
+   background-color: transparent;
+   color: black;
+   border-top: solid 1px var(--secondary-color);
+   margin-bottom: 2%;
+   border-radius: 5vh;
+   width: 100%;
 }
 
 #meniu a {
-   color: black;
+   color: var(--accent-color);
    text-align: center;
    font-size: xx-large;
 }
@@ -41,10 +54,10 @@
 html {
    overflow-y: scroll;
    overflow-x: hidden;
-   background-color: #f6f4e6;
+   background-color: var(--main-color);
 }
 body {
-   color: black;
+   color: var(--accent-color);
    line-height: 1.5;
    margin: 0%;
    height: 100vh;
@@ -57,18 +70,18 @@ body {
 }
 footer {
    display: grid;
-   background-color: rgb(55, 55, 55);
+   background-color: var(--accent-color);
    border-top: solid 1px black;
    border-radius: 100%/10vh 1vh 0 0;
    z-index: 3;
    padding-top: 1vh;
 }
 header {
-   background-color: #fddb3a;
+   background-color: var(--secondary-color);
    border-top: solid 1px black;
    border-radius: 100%/0 0 10vh 1vh;
-   margin-bottom: 2vw;
-   z-index: 3;
+   position: sticky;
+   z-index: 0;
 }
 svg {
    fill: rgb(230, 230, 230);
@@ -81,6 +94,7 @@ aside {
    float: right;
    margin-right: 4vw;
 }
+
 #copyright {
    margin-bottom: 2vh;
    width: 100%;
@@ -89,6 +103,7 @@ aside {
    display: grid;
    align-items: center;
 }
+
 #linkuri {
    display: inline-block;
    grid-row: 1/2;
@@ -96,91 +111,111 @@ aside {
    margin-left: 4vw;
    font-size: large;
 }
+
 a {
    text-decoration: none;
 }
+
 #linkuri li,
 #linkuri a {
    color: rgb(230, 230, 230);
    list-style-type: none;
 }
+
 main {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   z-index: 1;
 }
+
 main div {
    margin-bottom: 2vh;
    margin-left: 1vw;
    margin-right: 2vw;
 }
+
 #descriere p {
    margin-left: 3vw;
    margin-right: 4vw;
    text-align: justify;
 }
+
 #descriere p,
 .membru p,
 .membruR p {
    font-size: 125%;
 }
+
 #pagini {
    margin-left: 4vw;
 }
+
 header h1 a {
    color: black;
    margin-left: 5vw;
 }
+
 header h1 a:hover {
    text-decoration: underline wavy;
 }
-.extindere {
-   cursor: pointer;
-   margin-bottom: 1vh;
-}
+
 .intunecat {
-   background-color: #4e4e4e;
-   color: whitesmoke;
-   border-top: solid 1px #4e4e4e;
-   border-radius: 5vh;
+   background-color: var(--main-color);
+   color: var(--light-color);
+   width: 100%;
 }
+
 .galbui {
-   background-color: #fddb3a;
+   background-color: var(--secondary-color);
    color: black;
-   border-top: solid 1px #fddb3a;
-   border-radius: 5vh;
+   border-top: solid 1px var(--secondary-color);
+   margin: 0;
+   width: 100%;
 }
+
 h2 {
    font-size: 200%;
 }
+
 h3 {
    font-size: 150%;
 }
+
 .desc {
    margin: 1vh;
    flex-wrap: wrap;
    justify-content: space-evenly;
 }
-img {
+
+.membru img {
    border-radius: 2vh;
 }
-.membru,
-.membruR {
+
+.membri {
+   display: grid;
+   align-items: center;
+}
+
+.membru {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    padding: 2vw;
-   align-content: flex-start;
+   align-content: center;
    align-items: center;
    text-align: center;
    box-shadow: 0px 0px 10px black;
+   flex-direction: column;
+   width: 1fr;
+   height: 50%;
 }
-.membru {
-   flex-direction: row;
+
+.titlu {
+   text-align: center;
+   font-size: 2.5rem;
 }
-.membruR {
-   flex-direction: row-reverse;
-}
+
 textarea,
 input {
    margin-top: 1vw;
@@ -203,4 +238,11 @@ form {
 #contactDiv {
    display: grid;
    place-items: center;
+}
+
+#banner {
+   z-index: 0;
+   width: 100vw;
+   top: 2%;
+   position: sticky;
 }
