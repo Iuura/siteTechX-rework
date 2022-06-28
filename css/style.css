@@ -5,6 +5,10 @@
    --light-color: whitesmoke;
 }
 
+#html {
+   background-color: #679bf1;
+}
+
 @media only screen and (max-width: 999px) {
    #mobil {
       display: flex;
@@ -72,7 +76,6 @@ footer {
    display: grid;
    background-color: var(--accent-color);
    border-top: solid 1px black;
-   border-radius: 100%/10vh 1vh 0 0;
    z-index: 3;
    padding-top: 1vh;
 }
@@ -81,7 +84,7 @@ header {
    border-top: solid 1px black;
    border-radius: 100%/0 0 10vh 1vh;
    position: sticky;
-   z-index: 0;
+   z-index: 1;
 }
 svg {
    fill: rgb(230, 230, 230);
@@ -130,9 +133,9 @@ main {
 }
 
 main div {
-   margin-bottom: 2vh;
-   margin-left: 1vw;
-   margin-right: 2vw;
+   padding-bottom: 2vh;
+   padding-left: 1vw;
+   padding-right: 2vw;
 }
 
 #descriere p {
@@ -192,7 +195,7 @@ h3 {
    border-radius: 2vh;
 }
 
-.membri {
+#membri {
    display: grid;
    align-items: center;
 }
@@ -240,9 +243,13 @@ form {
    place-items: center;
 }
 
-#banner {
+.banner {
    z-index: 0;
-   width: 100vw;
-   top: 2%;
+   width: 100%;
+   top: 1%;
    position: sticky;
+   height: 70vh;
+   align-items: center;
+   display: flex;
+   background-color: #679bf1;
 }
