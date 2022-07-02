@@ -82,7 +82,6 @@ footer {
 header {
    background-color: var(--secondary-color);
    border-top: solid 1px black;
-   border-radius: 0 0 10vh 0;
    position: sticky;
    z-index: 2;
 }
@@ -150,13 +149,9 @@ main div {
    font-size: 125%;
 }
 
-#pagini {
-   margin-left: 4vw;
-}
-
 header h1 a {
    color: black;
-   margin-left: 5vw;
+   margin-left: 4vw;
 }
 
 header h1 a:hover {
@@ -243,6 +238,11 @@ form {
    place-items: center;
 }
 
+#contactDiv form {
+   width: 50vw;
+   max-width: 300px;
+}
+
 .banner {
    z-index: 1;
    width: 100%;
@@ -253,18 +253,29 @@ form {
    background-color: #679bf1;
 }
 
-.banner img {
+.banner-image {
    z-index: 0;
    width: 100%;
    height: auto;
    object-fit: cover;
+   display: none;
+   position: relative;
 }
 
 .banner .filter {
    position: absolute;
-   z-index: 1;
+   z-index: 0;
    height: 100%;
    width: 100%;
    background-color: rgba(47, 46, 44, 0.3);
    top: 0;
+}
+
+.banner-ribbon {
+   position: absolute;
+   top: -17px;
+   left: 0;
+   z-index: 1;
+   width: 40vw;
+   max-width: 500px;
 }
