@@ -1,6 +1,10 @@
 const extindere = document.querySelectorAll(".extindere");
 const deExtins = document.querySelectorAll(".deExtins");
 const butonMeniu = document.querySelector("#butonMeniu");
+const copyright = document.querySelector("#copyright small");
+
+if (copyright)
+   copyright.innerText = `© Tech-X ${new Date().getFullYear()} | Toate drepturile rezervate`;
 
 //Meniu pentru ecrane mici
 butonMeniu.addEventListener("click", meniuMobil);
