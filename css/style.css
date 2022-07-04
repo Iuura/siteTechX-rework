@@ -141,6 +141,10 @@ main div {
    margin-left: 3vw;
    margin-right: 4vw;
    text-align: justify;
+   width: 50vw;
+   min-width: 300px;
+   display: block;
+   margin: auto;
 }
 
 #descriere p,
@@ -203,7 +207,6 @@ h3 {
    align-content: center;
    align-items: center;
    text-align: center;
-   box-shadow: 0px 0px 10px black;
    flex-direction: column;
    width: 1fr;
    height: 50%;
@@ -248,7 +251,7 @@ form {
    width: 100%;
    top: 1%;
    position: sticky;
-   height: 80vh;
+   height: 91vh;
    display: flex;
    background-color: #679bf1;
 }
@@ -273,9 +276,32 @@ form {
 
 .banner-ribbon {
    position: absolute;
-   top: -17px;
-   left: 0;
    z-index: 1;
    width: 40vw;
-   max-width: 500px;
+   max-width: 650px;
+   min-width: 400px;
+}
+
+.ribbon-top {
+   position: absolute;
+   top: 0px;
+   left: 0;
+}
+
+.ribbon-bottom {
+   position: absolute;
+   bottom: -2px;
+   right: 0;
+}
+
+.spacer {
+   aspect-ratio: 800/50;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.layer1 {
+   background-image: url("../poze/svg/spacer_mentori_galben.svg");
 }
