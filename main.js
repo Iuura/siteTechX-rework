@@ -11,21 +11,55 @@ function meniuMobil() {
    else meniu.style.display = "flex";
 }
 
-const pozeBanner = document.querySelectorAll(".banner-image");
-
-let pozaBanner = 0;
-pozeBanner[pozaBanner].style.display = "block";
-pozaBanner++;
-schimbareBanner();
-function schimbareBanner() {
-   setTimeout(() => {
-      pozaBanner == 0
-         ? (pozeBanner[pozeBanner.length - 1].style.display = "none")
-         : (pozeBanner[pozaBanner - 1].style.display = "none");
-      pozeBanner[pozaBanner].style.display = "block";
-      pozaBanner++;
-      if (pozaBanner == pozeBanner.length) pozaBanner = 0;
-      console.log(pozaBanner);
-      schimbareBanner();
-   }, 3000);
+function bannerCycle() {
+   const pozeBanner = document.querySelectorAll(".banner-image");
+   let pozaBanner = 0;
+   pozeBanner[pozaBanner].style.display = "block";
+   pozaBanner++;
+   schimbareBanner();
+   function schimbareBanner() {
+      setTimeout(() => {
+         pozaBanner == 0
+            ? (pozeBanner[pozeBanner.length - 1].style.display = "none")
+            : (pozeBanner[pozaBanner - 1].style.display = "none");
+         pozeBanner[pozaBanner].style.display = "block";
+         pozaBanner++;
+         if (pozaBanner == pozeBanner.length) pozaBanner = 0;
+         schimbareBanner();
+      }, 3000);
+   }
 }
+
+let slider = tns({
+   container: "#sliderMembri",
+   items: 3,
+   speed: 200,
+   autoplay: true,
+   autoplayHoverPause: false,
+   autoplayTimeout: 2000,
+   autoplayText: ["▶", "❚❚"],
+   swipeAngle: 10,
+   controls: false,
+   autoplayButtonOutput: false,
+   responsive: {
+      1200: {
+         items: 3,
+         gutter: 20,
+      },
+      740: {
+         items: 2,
+         gutter: 20,
+      },
+      480: {
+         items: 1,
+      },
+   },
+   nav: true,
+   navPosition: "bottom",
+   navAsThumbnails: true,
+   touch: true,
+   arrowKeys: true,
+   mouseDrag: true,
+});
+
+bannerCycle();

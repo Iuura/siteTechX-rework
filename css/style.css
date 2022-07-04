@@ -7,6 +7,7 @@
 
 #html {
    background-color: #679bf1;
+   scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 999px) {
@@ -65,7 +66,7 @@ body {
    line-height: 1.5;
    margin: 0%;
    height: 100vh;
-   width: 100vw;
+   width: 100vw !important;
    display: grid;
    grid-template-rows: auto 10fr auto;
    font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -186,8 +187,14 @@ h3 {
 
 .desc {
    margin: 1vh;
-   flex-wrap: wrap;
    justify-content: space-evenly;
+}
+
+.bare {
+   display: flex;
+   margin: 1vh;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
 
 .membru img {
@@ -208,7 +215,6 @@ h3 {
    align-items: center;
    text-align: center;
    flex-direction: column;
-   width: 1fr;
    height: 50%;
 }
 
@@ -297,6 +303,9 @@ form {
 .spacer {
    aspect-ratio: 800/50;
    width: 100%;
+   object-fit: cover;
+   margin: 0;
+   padding: 0;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -304,4 +313,48 @@ form {
 
 .layer1 {
    background-image: url("../poze/svg/spacer_mentori_galben.svg");
+}
+
+@keyframes waves {
+   0% {
+      aspect-ratio: 800/50;
+   }
+
+   50% {
+      aspect-ratio: 500/50;
+   }
+
+   100% {
+      aspect-ratio: 800/50;
+   }
+}
+
+.tns-nav {
+   text-align: center;
+   margin: 10px 0;
+}
+
+.tns-nav > [aria-controls] {
+   width: 9px;
+   height: 9px;
+   padding: 0;
+   margin: 0 5px;
+   border-radius: 50%;
+   background: hsl(40, 3%, 70%);
+   border: 0;
+}
+
+.tns-nav > .tns-nav-active {
+   background: hsl(40, 3%, 18%);
+}
+
+.slide,
+.tns-inner,
+.tns-ovh {
+   padding-bottom: none;
+}
+
+.desc {
+   margin: auto;
+   width: 80vw;
 }
