@@ -71,7 +71,7 @@ body {
    grid-template-rows: auto 10fr auto;
    font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
    position: absolute;
-   user-select: none;
+   overflow-x: hidden;
 }
 footer {
    display: grid;
@@ -129,7 +129,7 @@ main {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   z-index: 2;
+   z-index: 1;
 }
 
 main div {
@@ -257,8 +257,8 @@ form {
 .banner {
    z-index: 1;
    width: 100%;
-   top: 1%;
-   position: sticky;
+   top: 0%;
+   position: relative;
    height: 91vh;
    display: flex;
    background-color: #679bf1;
