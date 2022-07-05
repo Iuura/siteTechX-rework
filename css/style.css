@@ -146,12 +146,23 @@ main div {
    min-width: 300px;
    display: block;
    margin: auto;
+   padding-bottom: 20px;
 }
 
 #descriere p,
 .membru p,
 .membruR p {
    font-size: 125%;
+}
+
+#sponsori {
+   width: 100%;
+   padding-bottom: 4rem;
+}
+
+#sponsori h2 {
+   width: 100%;
+   text-align: center;
 }
 
 header h1 a {
@@ -183,6 +194,7 @@ h2 {
 
 h3 {
    font-size: 150%;
+   margin-bottom: 0;
 }
 
 .desc {
@@ -259,7 +271,7 @@ form {
    width: 100%;
    top: 0%;
    position: relative;
-   height: 91vh;
+   height: 90vh;
    display: flex;
    background-color: #679bf1;
 }
@@ -314,8 +326,16 @@ form {
    background-size: cover;
 }
 
-.layer1 {
-   background-image: url("../poze/svg/spacer_mentori_galben.svg");
+#teamDivider {
+   background-image: url("../poze/svg/spacer-sponsori-jos.svg");
+}
+
+#dividerMentori {
+   background-image: url("../poze/svg/wave-mentori.svg");
+}
+
+#dividerDescriere {
+   background-image: url("../poze/svg/wave-sponsori.svg");
 }
 
 @keyframes waves {
@@ -324,7 +344,7 @@ form {
    }
 
    50% {
-      aspect-ratio: 800/50;
+      aspect-ratio: 800/60;
    }
 
    100% {
@@ -360,4 +380,27 @@ form {
 .desc {
    margin: auto;
    width: 80vw;
+}
+
+.desc-membru {
+   text-align: center;
+   margin: auto;
+   padding: 0;
+   margin-bottom: 0.5rem;
+}
+
+.contact-membru {
+   margin: auto;
+}
+
+.callToAction {
+   border-radius: 90000px;
+}
+
+a.callToAction {
+   display: block;
+   height: 4vh;
+   padding: 1rem;
+   width: fit-content;
+   margin: auto;
 }
