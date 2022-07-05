@@ -399,8 +399,18 @@ form {
 
 a.callToAction {
    display: block;
-   height: 4vh;
    padding: 1rem;
    width: fit-content;
    margin: auto;
+   font-size: 120%;
+   text-transform: capitalize;
+}
+
+#surpriza {
+   position: absolute;
+   width: 60px;
+   top: 10px;
+   right: 10px;
+   display: none;
+   z-index: 5;
 }
