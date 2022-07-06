@@ -1,13 +1,13 @@
 :root {
    --main-color: #679bf1;
-   --secondary-color: #ffc40a;
+   --secondary-color: #ffc60a;
    --accent-color: #2f2e2c;
    --light-color: whitesmoke;
 }
 
 #html {
+   color: #664e00;
    background-color: #679bf1;
-   scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 999px) {
@@ -62,6 +62,7 @@ html {
    background-color: var(--main-color);
 }
 body {
+   user-select: none;
    color: var(--accent-color);
    line-height: 1.5;
    margin: 0%;
@@ -72,11 +73,11 @@ body {
    font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
    position: absolute;
    overflow-x: hidden;
+   scroll-behavior: smooth;
 }
 footer {
    display: grid;
    background-color: var(--accent-color);
-   border-top: solid 1px black;
    z-index: 3;
    padding-top: 1vh;
 }
@@ -96,6 +97,12 @@ aside {
    grid-row: 2/-1;
    float: right;
    margin-right: 4vw;
+}
+
+iframe {
+   border-radius: 2vh;
+   width: 25vw;
+   min-width: 300px;
 }
 
 #copyright {
@@ -239,31 +246,47 @@ h3 {
 
 textarea,
 input {
-   margin-top: 1vw;
-   padding: 2vw;
+   margin-top: 1rem;
+   padding: 1rem;
    font-size: 150%;
    border-radius: 2vh;
    border: none;
+   font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #numeMail,
 #Subiect {
-   background-color: #292929;
+   background-color: var(--accent-color);
    color: whitesmoke;
+   width: 100%;
 }
 form {
-   padding: 2.5vh;
-   margin: 1vh 2vh 2vh 2vh;
+   padding: 0.5vh;
    text-align: left;
    font-family: "DM sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #contactDiv {
-   display: grid;
-   place-items: center;
+   display: flex;
 }
 
 #contactDiv form {
-   width: 50vw;
+   margin: auto;
    max-width: 300px;
+}
+
+#locuri-contact {
+   align-items: center;
+   gap: 10px;
+}
+
+#contact .bare {
+   flex-wrap: wrap-reverse;
+}
+
+.flex-column {
+   display: flex;
+   flex-direction: column;
 }
 
 .banner {
@@ -338,6 +361,19 @@ form {
    background-image: url("../poze/svg/wave-sponsori.svg");
 }
 
+#spacerEchipa {
+   background-image: url("../poze/svg/spacer_echipa.svg");
+   aspect-ratio: 800/100;
+}
+
+#spacerFooterAlbastru {
+   background-image: url("../poze/svg/spacer_footer_albastru.svg");
+}
+
+#spacerFooterGalben {
+   background-image: url("../poze/svg/spacer_footer_galben.svg");
+}
+
 @keyframes waves {
    0% {
       aspect-ratio: 800/50;
@@ -387,6 +423,8 @@ form {
    margin: auto;
    padding: 0;
    margin-bottom: 0.5rem;
+   font-size: large;
+   font-family: "Quicksand", cursive;
 }
 
 .contact-membru {
