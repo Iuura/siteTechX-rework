@@ -5,11 +5,6 @@
    --light-color: whitesmoke;
 }
 
-#html {
-   color: #664e00;
-   background-color: #679bf1;
-}
-
 @media only screen and (max-width: 999px) {
    #mobil {
       display: flex;
@@ -268,11 +263,13 @@ form {
 
 #contactDiv {
    display: flex;
+   position: relative;
 }
 
 #contactDiv form {
    margin: auto;
    max-width: 300px;
+   z-index: 1;
 }
 
 #locuri-contact {
