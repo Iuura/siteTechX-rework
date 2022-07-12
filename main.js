@@ -34,36 +34,27 @@ function bannerCycle() {
    }
 }
 
-let slider = tns({
-   container: "#sliderMembri",
-   items: 3,
-   speed: 200,
-   autoplay: true,
-   autoplayHoverPause: false,
-   autoplayTimeout: 2000,
-   autoplayText: ["▶", "❚❚"],
-   swipeAngle: 10,
-   controls: false,
-   autoplayButtonOutput: false,
-   responsive: {
-      1200: {
-         items: 3,
-         gutter: 20,
-      },
-      740: {
-         items: 2,
-         gutter: 20,
-      },
-      1: {
-         items: 1,
-      },
-   },
-   nav: true,
-   navPosition: "bottom",
-   navAsThumbnails: true,
-   touch: true,
-   arrowKeys: true,
-   mouseDrag: true,
-});
-
 bannerCycle();
+
+const banner = document.querySelector(".banner");
+const hopa = new Audio("./poze/galerie/hopa.mp3");
+const gif = document.querySelector("#surpriza");
+
+let apasari = 0;
+
+hopa.loop = true;
+
+banner.addEventListener("click", () => {
+   let clickuri = 4;
+   console.log(apasari);
+   apasari++;
+   if (apasari == clickuri + 3) apasari = 1;
+   if (apasari == clickuri) {
+      gif.style.display = "block";
+      hopa.play();
+   } else if (apasari == clickuri + 2) {
+      gif.style.display = "none";
+      hopa.pause();
+      hopa.currentTime = 0;
+   }
+});

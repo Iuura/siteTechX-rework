@@ -5,6 +5,13 @@
    --light-color: whitesmoke;
 }
 
+[data-theme="dark"] {
+   --main-color: #679bf1;
+   --secondary-color: #ffc60a;
+   --accent-color: #2f2e2c;
+   --light-color: whitesmoke;
+}
+
 @media only screen and (max-width: 999px) {
    #mobil {
       display: flex;
