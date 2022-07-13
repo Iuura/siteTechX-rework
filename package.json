@@ -1,0 +1,24 @@
+{
+  "name": "techx",
+  "version": "1.0.0",
+  "description": "Pagina echipei de robotică a Colegiului Național Dragoș Vodă",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sipandrei/TechX.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sipandrei/TechX.github.io/issues"
+  },
+  "homepage": "https://github.com/sipandrei/TechX.github.io#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
