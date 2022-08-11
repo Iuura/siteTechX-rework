@@ -477,9 +477,15 @@ a.callToAction {
   display: block;
   padding: 1rem;
   width: fit-content;
-  margin: auto;
+  margin: 5px auto;
   font-size: 120%;
   text-transform: capitalize;
+  text-align: center;
+}
+
+#sponsori .bare {
+  width: 50%;
+  margin: auto;
 }
 
 #surpriza {
