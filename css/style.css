@@ -378,7 +378,7 @@ form {
 .spacer {
   aspect-ratio: 800/50;
   /*animation: waves 4s infinite;*/
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
   margin: 0;
   padding: 0;
