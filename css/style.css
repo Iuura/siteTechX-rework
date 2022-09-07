@@ -222,6 +222,7 @@ h3 {
   border-radius: 2vh;
   width: 200px;
   object-fit: cover;
+  box-shadow: #2f2e2cc0 0 30px 50px;
 }
 
 #membri {
@@ -317,7 +318,7 @@ form {
   z-index: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(47, 46, 44, 0.5);
+  background-color: rgba(47, 46, 44, 0.4);
   display: flex;
   top: 0;
 }
