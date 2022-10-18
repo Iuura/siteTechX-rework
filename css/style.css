@@ -92,6 +92,7 @@ header {
 svg {
   fill: rgb(230, 230, 230);
 }
+
 aside {
   margin-top: 4vh;
   display: inline;
@@ -496,13 +497,4 @@ a.callToAction {
   right: 10px;
   display: none;
   z-index: 5;
-}
-a
-{
-  color: black;
-}
-.facultate
-{
-  margin: 0;
-  padding: 0;
 }
