@@ -497,3 +497,12 @@ a.callToAction {
   display: none;
   z-index: 5;
 }
+a
+{
+  color: black;
+}
+.facultate
+{
+  margin: 0;
+  padding: 0;
+}
