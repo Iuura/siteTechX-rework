@@ -498,3 +498,7 @@ a.callToAction {
   display: none;
   z-index: 5;
 }
+.facultate {
+  margin: 0;
+  padding: 0;
+}
