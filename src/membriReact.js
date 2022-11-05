@@ -36,7 +36,7 @@ class Membri extends React.Component {
       },
       {
         nume: "Mircea Horia",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/horia.png",
         departament: "Construcție",
         instagram: "#",
       },
@@ -54,7 +54,7 @@ class Membri extends React.Component {
       },
       {
         nume: "Boller Eduard",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/eduard.png",
         departament: "Construcție",
         instagram: "#",
       },
@@ -66,7 +66,7 @@ class Membri extends React.Component {
       },
       {
         nume: "Ionuț Drăguș",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/ionut.png",
         departament: "Construcție",
         instagram: "#",
       },

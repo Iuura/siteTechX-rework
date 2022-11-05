@@ -43,7 +43,7 @@ var Membri = function (_React$Component) {
       instagram: "#"
     }, {
       nume: "Mircea Horia",
-      poza: "poze/membri/placeholderMembru.png",
+      poza: "poze/membri/horia.png",
       departament: "Construcție",
       instagram: "#"
     }, {
@@ -58,7 +58,7 @@ var Membri = function (_React$Component) {
       instagram: "#"
     }, {
       nume: "Boller Eduard",
-      poza: "poze/membri/placeholderMembru.png",
+      poza: "poze/membri/eduard.png",
       departament: "Construcție",
       instagram: "#"
     }, {
@@ -68,7 +68,7 @@ var Membri = function (_React$Component) {
       instagram: "#"
     }, {
       nume: "Ionuț Drăguș",
-      poza: "poze/membri/placeholderMembru.JPG",
+      poza: "poze/membri/ionut.png",
       departament: "Construcție",
       instagram: "#"
     }, {
