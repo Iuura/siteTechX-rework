@@ -9,7 +9,7 @@
          content="Pagina echipei de robotică Tech-X - First Tech Challenge - Colegiul Național Dragoș Vodă Sighetu Marmației"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="sipandrei" />
+      
       <link rel="shortcut icon" href="" type="image/x-icon" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
@@ -26,39 +26,136 @@
    </head>
    <body>
       <header>
-         <h1 id="pagini">
-            <a href="index.html">Tech-X</a>
-            <a href="activitati.html" style="text-decoration: underline"
-               >Activități</a
-            >
-            <a href="galerie.html">Galerie</a>
-            <a href="contact.html">Contact</a>
-         </h1>
-         <div id="mobil">
-            <h1>Activități</h1>
+         <h2 id="pagini">
+            <a href="index.html" style="text-decoration: underline">Tech-X</a>
+            <a href="activitati.html">Activități</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
+            
+            <a href="https://tech-x-cndv.github.io/siteVechiTechX/"
+              >Sezoane Trecute</a>
+            <a href="alumni.html">Alumni</a>
+          </h2>
+          <div id="mobil">
+            <h2>Tech-X</h2>
             <svg
-               id="butonMeniu"
-               xmlns="http://www.w3.org/2000/svg"
-               viewBox="-5 -7 24 24"
-               width="32"
-               height="32"
-               preserveAspectRatio="xMinYMin"
-               class="icon__icon"
-               style="fill: black"
+              id="butonMeniu"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-5 -7 24 24"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMinYMin"
+              class="icon__icon"
+              style="fill: black"
             >
                <path
                   d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z"
-               ></path>
+               ></path> 
             </svg>
          </div>
          <div id="meniu">
             <a href="index.html">Tech-X</a> <br />
             <a href="galerie.html">Galerie</a> <br />
             <a href="contact.html">Contact</a> <br />
+            <a href="alumni.html">Alumni</a>
          </div>
       </header>
       
-      <main></main>
+      <main>
+         <div class="banner" style="height:auto; width: 10%; ">
+            <img
+            src="poze/banner/ribbonLogo.png"
+            alt="."
+            class="banner-ribbon ribbon-top"
+           style="max-width: 25%;"
+         />
+         </div>
+         
+         <!-- Slideshow container -->
+<div class="slideshow-container">
+   <div class="demo">
+      <h1 style="margin-top:7rem;">Demo Iași 2022</h1>
+      <h4>Pe data de 13.11.2022 echipa noastră a luat parte la primul meet din Quantum 
+         League la Iași. Pentru noi a reprezentat, pe lângă primul demo din acest sezon, 
+         o experiență inedită, fiind prima dată când membrii noștri  participă la un demo fizic.
+          Cu această ocazie am reușit să învățăm lucruri noi și să observăm ce trebuie
+           îmbunătățit la robotul nostru "GiGi", astfel clasându-ne pe locul 9.</h4>
+   </div>
+   <!-- Full-width images with number and caption text -->
+   <div class="mySlides fade">
+     
+     <img src="poze/demo-iasi/1.jpg" style=" display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;">
+     
+   </div>
+ 
+   <div class="mySlides fade">
+     
+     <img src="poze/demo-iasi/2.jpg" style=" display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;">
+    
+   </div>
+ 
+   <div class="mySlides fade">
+     
+     <img src="poze/demo-iasi/3.jpg" style=" display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;">
+     
+   </div>
+
+   <div class="mySlides fade">
+      
+      <img src="poze/demo-iasi/4.jpg" style=" display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;">
+    
+    </div>
+
+    <div class="mySlides fade">
+      <img src="poze/demo-iasi/5.jpg" style=" display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="poze/demo-iasi/6.jpg" style=" display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      ">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="poze/demo-iasi/7.jpg" style=" display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;">
+    </div>
+   <!-- Next and previous buttons -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+ 
+ <!-- The dots/circles -->
+ <div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+   <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+   <span class="dot" onclick="currentSlide(7)"></span>
+ </div>
+      </main>
 
       <footer>
          <div id="continutFooter">
@@ -68,6 +165,7 @@
                   <li><a href="activitati.html">Activități</a></li>
                   <li><a href="galerie.html">Galerie</a></li>
                   <li><a href="contact.html">Contact</a></li>
+                  <li><a href="alumni.html">Alumni</a></li>
                </ul>
             </div>
             <aside>
@@ -122,6 +220,6 @@
          </center>
       </footer>
 
-      <script src="main.js"></script>
+      <script src="demouri.js"></script>
    </body>
 </html>
