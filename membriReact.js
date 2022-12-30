@@ -24,7 +24,7 @@ var Membri = function (_React$Component) {
         instagram: "#"
       },{
         nume: "Eduard Boller",
-        poza: "poze/membri/eduard.png",
+        poza: "poze/membri/boller.JPG",
         departament: "Construcție",
         instagram: "#"
       },{
@@ -63,8 +63,13 @@ var Membri = function (_React$Component) {
       departament: "Construcție",
       instagram: "#"
     },{
-      nume: "Larisa Pașca",
+      nume: "Denisa Lihet",
       poza: "poze/membri/placeholderMembru.png",
+      departament: "Marketing",
+      instagram: "#"
+    },{
+      nume: "Larisa Pașca",
+      poza: "poze/membri/larisa.JPG",
       departament: "Marketing",
       instagram: "#"
     }, {
@@ -81,7 +86,7 @@ var Membri = function (_React$Component) {
       github: "https://github.com/sipandrei"
     }, {
       nume: "Mihaela Trifoi",
-      poza: "poze/membri/placeholderMembru.png",
+      poza: "poze/membri/mihatrifoi.JPG",
       departament: "Marketing",
       instagram: "#"
     }];
