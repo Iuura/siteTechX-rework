@@ -16,7 +16,18 @@ var Membri = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Membri.__proto__ || Object.getPrototypeOf(Membri)).call(this, props));
 
-    _this.membri = [{
+    _this.membri = [
+      {
+        nume: "Ardelean Raluca",
+        poza: "poze/membri/placeholderMembru.png",
+        departament: "Marketing",
+        instagram: "#"
+      },{
+        nume: "Eduard Boller",
+        poza: "poze/membri/boller.JPG",
+        departament: "Construcție",
+        instagram: "#"
+      },{
       nume: "Nicola Colopelnic",
       poza: "poze/membri/nicoColo1.JPG",
       departament: "Marketing",
@@ -27,9 +38,9 @@ var Membri = function (_React$Component) {
       departament: "Programare",
       instagram: "#"
     }, {
-      nume: "Larisa Pașca",
-      poza: "poze/membri/placeholderMembru.png",
-      departament: "Marketing",
+      nume: "Ionuț Drăguș",
+      poza: "poze/membri/ionut.png",
+      departament: "Construcție",
       instagram: "#"
     }, {
       nume: "Patricia Furtos",
@@ -42,36 +53,31 @@ var Membri = function (_React$Component) {
       departament: "Construcție",
       instagram: "#"
     }, {
-      nume: "Mircea Horia",
-      poza: "poze/membri/horia.png",
-      departament: "Construcție",
-      instagram: "#"
-    }, {
       nume: "Luca Ilieș",
       poza: "poze/membri/lucaIlies.JPG",
       departament: "Programare",
       instagram: "#"
     }, {
-      nume: "Bogdan Mircea",
-      poza: "poze/membri/bogdanMircea1.JPG",
+      nume: "Ștefan Antonio Ivașcu",
+      poza: "poze/membri/placeholderMembru.png",
       departament: "Construcție",
       instagram: "#"
-    }, {
-      nume: "Boller Eduard",
-      poza: "poze/membri/eduard.png",
-      departament: "Construcție",
+    },{
+      nume: "Denisa Lihet",
+      poza: "poze/membri/placeholderMembru.png",
+      departament: "Marketing",
+      instagram: "#"
+    },{
+      nume: "Larisa Pașca",
+      poza: "poze/membri/larisa.JPG",
+      departament: "Marketing",
       instagram: "#"
     }, {
       nume: "Paul Plopișan",
       poza: "poze/membri/paulPlopisan.JPG",
       departament: "Construcție",
       instagram: "#"
-    }, {
-      nume: "Ionuț Drăguș",
-      poza: "poze/membri/ionut.png",
-      departament: "Construcție",
-      instagram: "#"
-    }, {
+    },  {
       nume: "Silviu Pontoș",
       poza: "poze/membri/silviuPontos.JPG",
       departament: "Lider Echipă",
@@ -80,7 +86,7 @@ var Membri = function (_React$Component) {
       github: "https://github.com/sipandrei"
     }, {
       nume: "Mihaela Trifoi",
-      poza: "poze/membri/placeholderMembru.png",
+      poza: "poze/membri/mihatrifoi.JPG",
       departament: "Marketing",
       instagram: "#"
     }];
