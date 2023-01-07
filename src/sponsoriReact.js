@@ -7,22 +7,26 @@ class Sponsori extends React.Component {
       {
         nume: "Plimob",
         poza: "poze/sponsori/plimob.png",
-        facebook: "#",
+        facebook: "https://www.plimob.ro/ro/home",
       },
       {
         nume: "Bazil1992",
         poza: "poze/sponsori/bazil.png",
-        facebook: "#",
+        facebook: "https://www.facebook.com/Bazil1992",
       },
       {
         nume: "Dent Medica",
         poza: "poze/sponsori/dentMedica.png",
-        facebook: "#",
+        facebook: "https://www.dentmedica.ro/",
       },
       {
         nume: "Colibri",
         poza: "poze/sponsori/colibri.png",
-        facebook: "#",
+        facebook: "https://www.facebook.com/colibriprintshop/",
+      },
+      {
+        nume: "Arhi-Proiect",
+        poza: "poze/sponsori/arhi-proiect.jpeg",
       },
     ];
   }
