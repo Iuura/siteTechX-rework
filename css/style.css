@@ -551,6 +551,12 @@ a.callToAction {
   display: none;
 }
 
+.mySlides img,
+.mySlides1 img {
+  width: auto;
+  height: 40vh;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
