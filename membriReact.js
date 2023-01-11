@@ -37,11 +37,6 @@ var Membri = function (_React$Component) {
       departament: "Programare",
       instagram: "#"
     }, {
-      nume: "Mihai Grigor",
-      poza: "poze/membri/mihaiGrigor.JPG",
-      departament: "Construcție",
-      instagram: "#"
-    }, {
       nume: "Luca Ilieș",
       poza: "poze/membri/lucaIlies.JPG",
       departament: "Programare",

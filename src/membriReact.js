@@ -28,12 +28,6 @@ class Membri extends React.Component {
         departament: "Programare",
         instagram: "#",
       },
-      {
-        nume: "Mihai Grigor",
-        poza: "poze/membri/mihaiGrigor.JPG",
-        departament: "Construcție",
-        instagram: "#",
-      },
 
       {
         nume: "Luca Ilieș",
