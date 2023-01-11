@@ -18,7 +18,7 @@ class Membri extends React.Component {
       },
       {
         nume: "Larisa Pașca",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/larisa.JPG",
         departament: "Marketing",
         instagram: "#",
       },
@@ -44,7 +44,7 @@ class Membri extends React.Component {
 
       {
         nume: "Boller Eduard",
-        poza: "poze/membri/eduard.png",
+        poza: "poze/membri/eduard.JPG",
         departament: "Construcție",
         instagram: "#",
       },
@@ -70,7 +70,7 @@ class Membri extends React.Component {
       },
       {
         nume: "Mihaela Trifoi",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/miha.JPG",
         departament: "Marketing",
         instagram: "#",
       },

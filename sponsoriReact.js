@@ -35,6 +35,10 @@ var Sponsori = function (_React$Component) {
     }, {
       nume: "Arhi-Proiect",
       poza: "poze/sponsori/arhi-proiect.jpeg"
+    }, {
+      nume: "Granell",
+      poza: "poze/sponsori/granell.png",
+      facebook: "granell.ro"
     }];
     return _this;
   }
