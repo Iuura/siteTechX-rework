@@ -70,19 +70,19 @@ class Membri extends React.Component {
       },
       {
         nume: "Antonio Ivașcu",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/antonio.JPG",
         departament: "Construcție/Programare",
-        instagram: "#",
+        instagram: "https://www.instagram.com/antonioivascu_/",
       },
       {
         nume: "Lihet Denisa",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/denisa.JPG",
         departament: "Marketing",
         instagram: "#",
       },
       {
         nume: "Ardelean Raluca",
-        poza: "poze/membri/placeholderMembru.png",
+        poza: "poze/membri/raluca.JPG",
         departament: "Marketing",
         instagram: "#",
       },
