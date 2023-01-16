@@ -19,43 +19,43 @@ var Membri = function (_React$Component) {
     _this.membri = [{
       nume: "Nicola Colopelnic",
       poza: "poze/membri/nicoColo1.JPG",
-      departament: "Marketing",
-      instagram: "#"
+      departament: "Marketing"
+      //instagram: "#",
     }, {
       nume: "Diana Dolca",
       poza: "poze/membri/diaDolca.JPG",
       departament: "Programare",
-      instagram: "#"
+      instagram: "https://www.instagram.com/alinaaaa3007/"
     }, {
       nume: "Larisa Pașca",
       poza: "poze/membri/larisa.JPG",
-      departament: "Marketing",
-      instagram: "#"
+      departament: "Marketing"
+      //instagram: "#",
     }, {
       nume: "Patricia Furtos",
       poza: "poze/membri/patricia.JPG",
-      departament: "Programare",
-      instagram: "#"
+      departament: "Programare"
+      //instagram: "#",
     }, {
       nume: "Luca Ilieș",
       poza: "poze/membri/lucaIlies.JPG",
-      departament: "Programare",
-      instagram: "#"
+      departament: "Programare"
+      //instagram: "#",
     }, {
       nume: "Boller Eduard",
       poza: "poze/membri/eduard.JPG",
-      departament: "Construcție",
-      instagram: "#"
+      departament: "Construcție"
+      //instagram: "#",
     }, {
       nume: "Paul Plopișan",
       poza: "poze/membri/paulPlopisan.JPG",
-      departament: "Construcție",
-      instagram: "#"
+      departament: "Construcție"
+      //instagram: "#",
     }, {
       nume: "Ionuț Drăguș",
       poza: "poze/membri/ionut.png",
-      departament: "Construcție",
-      instagram: "#"
+      departament: "Construcție"
+      //instagram: "#",
     }, {
       nume: "Silviu Pontoș",
       poza: "poze/membri/silviuPontos.JPG",
@@ -66,8 +66,8 @@ var Membri = function (_React$Component) {
     }, {
       nume: "Mihaela Trifoi",
       poza: "poze/membri/miha.JPG",
-      departament: "Marketing",
-      instagram: "#"
+      departament: "Marketing"
+      //instagram: "#",
     }, {
       nume: "Antonio Ivașcu",
       poza: "poze/membri/antonio.JPG",
@@ -76,13 +76,13 @@ var Membri = function (_React$Component) {
     }, {
       nume: "Lihet Denisa",
       poza: "poze/membri/denisa.JPG",
-      departament: "Marketing",
-      instagram: "#"
+      departament: "Marketing"
+      //instagram: "#",
     }, {
       nume: "Ardelean Raluca",
       poza: "poze/membri/raluca.JPG",
-      departament: "Marketing",
-      instagram: "#"
+      departament: "Marketing"
+      //instagram: "#",
     }];
     return _this;
   }

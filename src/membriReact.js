@@ -8,51 +8,51 @@ class Membri extends React.Component {
         nume: "Nicola Colopelnic",
         poza: "poze/membri/nicoColo1.JPG",
         departament: "Marketing",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Diana Dolca",
         poza: "poze/membri/diaDolca.JPG",
         departament: "Programare",
-        instagram: "#",
+        instagram: "https://www.instagram.com/alinaaaa3007/",
       },
       {
         nume: "Larisa Pașca",
         poza: "poze/membri/larisa.JPG",
         departament: "Marketing",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Patricia Furtos",
         poza: "poze/membri/patricia.JPG",
         departament: "Programare",
-        instagram: "#",
+        //instagram: "#",
       },
 
       {
         nume: "Luca Ilieș",
         poza: "poze/membri/lucaIlies.JPG",
         departament: "Programare",
-        instagram: "#",
+        //instagram: "#",
       },
 
       {
         nume: "Boller Eduard",
         poza: "poze/membri/eduard.JPG",
         departament: "Construcție",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Paul Plopișan",
         poza: "poze/membri/paulPlopisan.JPG",
         departament: "Construcție",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Ionuț Drăguș",
         poza: "poze/membri/ionut.png",
         departament: "Construcție",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Silviu Pontoș",
@@ -66,7 +66,7 @@ class Membri extends React.Component {
         nume: "Mihaela Trifoi",
         poza: "poze/membri/miha.JPG",
         departament: "Marketing",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Antonio Ivașcu",
@@ -78,13 +78,13 @@ class Membri extends React.Component {
         nume: "Lihet Denisa",
         poza: "poze/membri/denisa.JPG",
         departament: "Marketing",
-        instagram: "#",
+        //instagram: "#",
       },
       {
         nume: "Ardelean Raluca",
         poza: "poze/membri/raluca.JPG",
         departament: "Marketing",
-        instagram: "#",
+        //instagram: "#",
       },
     ];
   }
