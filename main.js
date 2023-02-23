@@ -58,3 +58,7 @@ banner.addEventListener("click", () => {
       hopa.currentTime = 0;
    }
 });
+
+
+
+

@@ -8,115 +8,79 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Membri = function (_React$Component) {
-  _inherits(Membri, _React$Component);
+var Alumni = function (_React$Component) {
+  _inherits(Alumni, _React$Component);
 
-  function Membri(props) {
-    _classCallCheck(this, Membri);
+  function Alumni(props) {
+    _classCallCheck(this, Alumni);
 
-    var _this = _possibleConstructorReturn(this, (Membri.__proto__ || Object.getPrototypeOf(Membri)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Alumni.__proto__ || Object.getPrototypeOf(Alumni)).call(this, props));
 
-    _this.membri = [{
-      nume: "Nicola Colopelnic",
-      poza: "poze/membri/nicoColo1.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/col._.nicola/",
-      facebook: "https://www.facebook.com/profile.php?id=100006945691248",
+    _this.alumni = [{
+      nume: "Darius Giurgi",
+      poza: "poze/mentori/darius.jpg",
+      facultate: "Facultatea de Inginerie Industrială și Robotică, Universitatea Politehnică București",
+      instagram: "https://www.instagram.com/darius_giurgi/",
+      facebook: "https://www.facebook.com/profile.php?id=100089605624877",
     },
     {
-      nume: "Diana Dolca",
-      poza: "poze/membri/diaDolca.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/alinaaaa3007/",
-      facebook: "https://www.facebook.com/dianaalina.dolca.9",
+      nume: "Vlad Hasciar",
+      poza: "poze/alumni/hasciar.jpg",
+      facultate: "Calculatoare și tehnologia informației, Universitatea Politehnică București",
+      instagram: "https://www.instagram.com/vlasciar/",
+      facebook: "https://www.facebook.com/vlad.hasciar",
     },
     {
-      nume: "Larisa Pașca",
-      poza: "poze/membri/larisa.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/larisa.pasca.29/",
-      facebook: "https://www.facebook.com/larisa.pasca.1",
+      nume: "David Holociuc",
+      poza: "poze/alumni/holociuc.jpg",
+      facultate: "Facultatea de Inginerie Industrială și Robotică, Universitatea Politehnică București",
+      instagram: "https://www.instagram.com/davidholociuc/",
+      facebook: "https://www.facebook.com/david.holociuc",
     },
     {
-      nume: "Patricia Furtos",
-      poza: "poze/membri/patricia.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/patricia.furtos/",
-      facebook: "https://www.facebook.com/patricia.furtos.5",
-    },
-
-    {
-      nume: "Luca Ilieș",
-      poza: "poze/membri/lucaIlies.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/luca_ilies/",
-      facebook: "https://www.facebook.com/luca.ilies.54",
+      nume: "Ovidiu Gherman",
+      poza: "poze/alumni/ovi.png",
+      facultate: "Facultatea de Electronică, Telecomunicații și Tehnologia informației, Universitatea Tehnică Cluj-Napoca",
+      instagram: "https://www.instagram.com/gherman_ovidiu/",
+      facebook: "https://www.facebook.com/profile.php?id=100006239205368",
     },
 
     {
-      nume: "Boller Eduard",
-      poza: "poze/membri/eduard.JPG",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/boller_eduard/",
-      facebook: "https://www.facebook.com/eduard.boller.9",
+      nume: "Alin Fonta",
+      poza: "poze/alumni/alin.jpeg",
+      facultate: "Facultatea de Inginerie Industrială și Robotică, Universitatea Politehnică București",
+      instagram: "https://www.instagram.com/alinfonta/",
+      facebook: "https://www.facebook.com/profile.php?id=100007190566659",
+    },
+
+    {
+      nume: "Florentina Dunca",
+      poza: "poze/alumni/tina.jpeg",
+      facultate: "Facultatea de Inginerie Industrială și Robotică ,Universitatea Politehnică București",
+      instagram: "https://www.instagram.com/d.ttina/",
+      facebook: "https://www.facebook.com/d.ttinaa",
     },
     {
-      nume: "Paul Plopișan",
-      poza: "poze/membri/paulPlopisan.JPG",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/paulplopisan_05/",
-      facebook: "https://www.facebook.com/paul.plopisan",
+      nume: "Cosmin Mihai",
+      poza: "poze/alumni/coco.jpeg",
+      facultate: "Facultatea de Mecatronică și Robotică, Universitatea Politehnică Timișoara",
+      instagram: "https://www.instagram.com/cosminclaudiumihai/",
+      facebook: "https://www.facebook.com/profile.php?id=100029654430047",
     },
     {
-      nume: "Ionuț Drăguș",
-      poza: "poze/membri/ionut.png",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/ionut_dragus11/",
-      facebook: "https://www.facebook.com/dragus.ionut.75",
-    },
-    {
-      nume: "Silviu Pontoș",
-      poza: "poze/membri/silviuPontos.JPG",
-      departament: "Lider Echipă",
-      instagram: "https://www.instagram.com/_sipandrei_/",
-      facebook: "https://www.facebook.com/silviu.pontos/",
-      github: "https://github.com/sipandrei",
-    },
-    {
-      nume: "Mihaela Trifoi",
-      poza: "poze/membri/miha.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/miha._.trifoi/",
-      facebook: "https://www.facebook.com/mihaelaioana.trifoi",
-    },
-    {
-      nume: "Antonio Ivașcu",
-      poza: "poze/membri/antonio.JPG",
-      departament: "Construcție/Programare",
-      instagram: "https://www.instagram.com/antonioivascu_/",
-      facebook: "https://www.facebook.com/antonio.ivascu.5",
-    },
-    {
-      nume: "Lihet Denisa",
-      poza: "poze/membri/denisa.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/deniii18_/",
-      facebook: "https://www.facebook.com/denisa.lihet.3",
-    },
-    {
-      nume: "Ardelean Raluca",
-      poza: "poze/membri/raluca.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/ralucardelean/",
-      facebook: "https://www.facebook.com/raluca.ardelean.7146",
+      nume: "Cosmin Sabadâș",
+      poza: "poze/alumni/cosmins.jpg",
+      facultate: "Facultatea de Automatică și Calculatoare, Universitatea Tehnică Cluj-Napoca",
+      instagram: "https://www.instagram.com/sabadascosmin/",
+      facebook: "https://www.facebook.com/sabadas.cosmin",
     }];
     return _this;
   }
 
-  _createClass(Membri, [{
-    key: "renderMembru",
-    value: function renderMembru(membru) {
-      return React.createElement(Membru, { membru: membru });
+  _createClass(Alumni, [{
+    key: "renderAl",
+    value: function renderAl(al) {
+      return React.createElement(Al, { al: al });
     }
   }, {
     key: "componentDidMount",
@@ -134,46 +98,46 @@ var Membri = function (_React$Component) {
 
       return React.createElement(
         "div",
-        { id: "sliderMembri" },
-        this.membri.map(function (membru) {
-          return _this2.renderMembru(membru);
+        { id: "sliderAlumni" },
+        this.alumni.map(function (al) {
+          return _this2.renderAl(al);
         })
       );
     }
   }]);
 
-  return Membri;
+  return Alumni;
 }(React.Component);
 
-function Membru(props) {
-  var hasFacebook = props.membru.facebook;
-  var hasInstagram = props.membru.instagram;
-  var hasGithub = props.membru.github;
+function Al(props) {
+  var hasFacebook = props.al.facebook;
+  var hasInstagram = props.al.instagram;
+  var hasGithub = props.al.github;
   return React.createElement(
     "div",
-    { "class": "slide membru", key: props.membru.nume },
+    { "class": "slide al", key: props.al.nume },
     React.createElement("img", {
-      src: props.membru.poza,
-      alt: props.membru.nume,
+      src: props.al.poza,
+      alt: props.al.nume,
       height: "250vh",
       width: "auto"
     }),
     React.createElement(
       "h3",
       null,
-      props.membru.nume
+      props.al.nume
     ),
     React.createElement(
       "h4",
-      { "class": "desc-membru" },
-      props.membru.departament
+      { "class": "desc-al" },
+      props.al.facultate
     ),
     React.createElement(
       "div",
-      { "class": "contact-membru" },
+      { "class": "contact-al" },
       hasFacebook ? React.createElement(
         "a",
-        { href: props.membru.facebook },
+        { href: props.al.facebook },
         React.createElement(
           "svg",
           {
@@ -189,7 +153,7 @@ function Membru(props) {
       ) : React.createElement("span", null),
       hasInstagram ? React.createElement(
         "a",
-        { href: props.membru.instagram },
+        { href: props.al.instagram },
         React.createElement(
           "svg",
           {
@@ -207,7 +171,7 @@ function Membru(props) {
       ) : React.createElement("span", null),
       hasGithub ? React.createElement(
         "a",
-        { href: props.membru.github },
+        { href: props.al.github },
         React.createElement(
           "svg",
           {
@@ -223,6 +187,6 @@ function Membru(props) {
   );
 }
 
-var domContainer = document.querySelector("#membriReact_container");
+var domContainer = document.querySelector("#alumniReact_container");
 var root = ReactDOM.createRoot(domContainer);
-root.render(React.createElement(Membri, null));
+root.render(React.createElement(Alumni, null));
