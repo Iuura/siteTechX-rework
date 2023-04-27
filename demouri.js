@@ -111,24 +111,48 @@ function off() {
   document.getElementById("overlay2").style.display = "none";
 }
 
+ 
+
 
 var slidePosition = 1;
 SlideShow(slidePosition);
+SlideShow1(slidePosition);
 
 // forward/Back controls
 function plusSlideS(n) {
   SlideShow(slidePosition += n);
+}
+function plusSlideS1(n) {
+  SlideShow1(slidePosition += n);
 }
 
 //  images controls
 function currentSlide(n) {
   SlideShow(slidePosition = n);
 }
+function currentSlide1(n) {
+  SlideShow1(slidePosition = n);
+}
 
 function SlideShow(n) {
   var i;
   var slideS = document.getElementsByClassName("Containers");
   var circles = document.getElementsByClassName("dots");
+  if (n > slideS.length) {slidePosition = 1}
+  if (n < 1) {slidePosition = slideS.length}
+  for (i = 0; i < slideS.length; i++) {
+      slideS[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+      circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slideS[slidePosition-1].style.display = "block";
+  circles[slidePosition-1].className += " enable";
+} 
+function SlideShow1(n) {
+  var i;
+  var slideS = document.getElementsByClassName("Containers1");
+  var circles = document.getElementsByClassName("dots1");
   if (n > slideS.length) {slidePosition = 1}
   if (n < 1) {slidePosition = slideS.length}
   for (i = 0; i < slideS.length; i++) {
