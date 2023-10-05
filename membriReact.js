@@ -22,19 +22,16 @@ var Membri = function (_React$Component) {
       departament: "Marketing",
       instagram: "https://www.instagram.com/ralucardelean/",
       facebook: "https://www.facebook.com/raluca.ardelean.7146",
-    }
-    ,
-    
-
+    },
     {
-      nume: "Luca Ilieș",
+      nume: "Ilieș Luca",
       poza: "poze/membri/lucaIlies.JPG",
       departament: "Programare",
       instagram: "https://www.instagram.com/luca_ilies/",
       facebook: "https://www.facebook.com/luca.ilies.54",
     },
     {
-      nume: "Cristian Iura",
+      nume: "Iura Cristian",
       poza: "poze/membri/iura.jpeg",
       departament: "Marketing",
       instagram: "https://www.instagram.com/christe.iura/",
@@ -55,37 +52,39 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/denisa.lihet.3",
     },
     {
-      nume: "Paul Plopișan",
+      nume: "Plopișan Paul",
       poza: "poze/membri/paulPlopisan.JPG",
       departament: "Construcție",
       instagram: "https://www.instagram.com/paulplopisan_05/",
       facebook: "https://www.facebook.com/paul.plopisan",
     },
     {
-      nume: "Ionuț Drăguș",
+      nume: "Drăguș Ionuț",
       poza: "poze/membri/ionut.png",
       departament: "Construcție",
       instagram: "https://www.instagram.com/ionut_dragus11/",
       facebook: "https://www.facebook.com/dragus.ionut.75",
     },
     {
-      nume: "Alexandru Stan",
+      nume: "Stan Alexandru",
       poza: "poze/membri/bojnet.jpeg",
-      departament: "Mascota",
+      departament: "Media",
       instagram: "https://www.instagram.com/stan_alex_/",
+      facebook: "https://www.facebook.com",
     },
     {
-      nume: "Aurelian Teleptean ",
-      poza: "",
+      nume: "Teleptean Aurelian",
+      poza: "poze/membri/aure.jpeg",
       departament: "Construcție",
       instagram: "https://www.instagram.com/_aure__23/",
-      facebook: "https://ro-ro.facebook.com/aurelian.tlpt.1",
+      facebook: "https://www.facebook.com/aurelian.tlpt.1",
     },
     {
-      nume: "Alin Ulici",
-      poza: "",
+      nume: "Ulici Alin",
+      poza: "poze/membri/placeholder.jpeg",
       departament: "Programare",
       instagram: "https://www.instagram.com/alinulici/",
+      facebook: "https://www.facebook.com",
     },
     
     
