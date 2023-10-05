@@ -1,14 +1,14 @@
 :root {
   --main-color: #679bf1;
   --secondary-color: #ffc60a;
-  --accent-color: #2f2e2c;
+  --accent-color: #2D2D2D;
   --light-color: whitesmoke;
 }
 
 [data-theme="dark"] {
   --main-color: #679bf1;
   --secondary-color: #ffc60a;
-  --accent-color: #2f2e2c;
+  --accent-color: #2D2D2D;
   --light-color: whitesmoke;
 }
 
@@ -232,7 +232,7 @@ h3 {
   border-radius: 2vh;
   width: 200px;
   object-fit: cover;
-  box-shadow: #2f2e2cc0 0 30px 50px;
+  box-shadow: #2D2D2D 0 30px 50px;
 }
 
 .sponsor img {
@@ -247,7 +247,7 @@ h3 {
   border-radius: 2vh;
   width: 200px;
   object-fit: contain;
-  box-shadow: #2f2e2cc0 0 30px 50px;
+  box-shadow: #2D2D2D 0 30px 50px;
   height: 190px;
   margin: auto;
 }

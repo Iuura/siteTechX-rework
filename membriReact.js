@@ -17,33 +17,14 @@ var Membri = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Membri.__proto__ || Object.getPrototypeOf(Membri)).call(this, props));
 
     _this.membri = [{
-      nume: "Nicola Colopelnic",
-      poza: "poze/membri/nicoColo1.JPG",
+      nume: "Ardelean Raluca",
+      poza: "poze/membri/raluca.JPG",
       departament: "Marketing",
-      instagram: "https://www.instagram.com/col._.nicola/",
-      facebook: "https://www.facebook.com/profile.php?id=100006945691248",
-    },
-    {
-      nume: "Diana Dolca",
-      poza: "poze/membri/diaDolca.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/alinaaaa3007/",
-      facebook: "https://www.facebook.com/dianaalina.dolca.9",
-    },
-    {
-      nume: "Larisa Pașca",
-      poza: "poze/membri/larisa.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/larisa.pasca.29/",
-      facebook: "https://www.facebook.com/larisa.pasca.1",
-    },
-    {
-      nume: "Patricia Furtos",
-      poza: "poze/membri/patricia.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/patricia.furtos/",
-      facebook: "https://www.facebook.com/patricia.furtos.5",
-    },
+      instagram: "https://www.instagram.com/ralucardelean/",
+      facebook: "https://www.facebook.com/raluca.ardelean.7146",
+    }
+    ,
+    
 
     {
       nume: "Luca Ilieș",
@@ -52,42 +33,12 @@ var Membri = function (_React$Component) {
       instagram: "https://www.instagram.com/luca_ilies/",
       facebook: "https://www.facebook.com/luca.ilies.54",
     },
-
     {
-      nume: "Boller Eduard",
-      poza: "poze/membri/eduard.JPG",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/boller_eduard/",
-      facebook: "https://www.facebook.com/eduard.boller.9",
-    },
-    {
-      nume: "Paul Plopișan",
-      poza: "poze/membri/paulPlopisan.JPG",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/paulplopisan_05/",
-      facebook: "https://www.facebook.com/paul.plopisan",
-    },
-    {
-      nume: "Ionuț Drăguș",
-      poza: "poze/membri/ionut.png",
-      departament: "Construcție",
-      instagram: "https://www.instagram.com/ionut_dragus11/",
-      facebook: "https://www.facebook.com/dragus.ionut.75",
-    },
-    {
-      nume: "Silviu Pontoș",
-      poza: "poze/membri/silviuPontos.JPG",
-      departament: "Lider Echipă",
-      instagram: "https://www.instagram.com/_sipandrei_/",
-      facebook: "https://www.facebook.com/silviu.pontos/",
-      github: "https://github.com/sipandrei",
-    },
-    {
-      nume: "Mihaela Trifoi",
-      poza: "poze/membri/miha.JPG",
+      nume: "Cristian Iura",
+      poza: "poze/membri/iura.jpeg",
       departament: "Marketing",
-      instagram: "https://www.instagram.com/miha._.trifoi/",
-      facebook: "https://www.facebook.com/mihaelaioana.trifoi",
+      instagram: "https://www.instagram.com/christe.iura/",
+      facebook: "https://www.facebook.com//chr.iura",
     },
     {
       nume: "Antonio Ivașcu",
@@ -104,12 +55,41 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/denisa.lihet.3",
     },
     {
-      nume: "Ardelean Raluca",
-      poza: "poze/membri/raluca.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/ralucardelean/",
-      facebook: "https://www.facebook.com/raluca.ardelean.7146",
-    }];
+      nume: "Paul Plopișan",
+      poza: "poze/membri/paulPlopisan.JPG",
+      departament: "Construcție",
+      instagram: "https://www.instagram.com/paulplopisan_05/",
+      facebook: "https://www.facebook.com/paul.plopisan",
+    },
+    {
+      nume: "Ionuț Drăguș",
+      poza: "poze/membri/ionut.png",
+      departament: "Construcție",
+      instagram: "https://www.instagram.com/ionut_dragus11/",
+      facebook: "https://www.facebook.com/dragus.ionut.75",
+    },
+    {
+      nume: "Alexandru Stan",
+      poza: "poze/membri/bojnet.jpeg",
+      departament: "Mascota",
+      instagram: "https://www.instagram.com/stan_alex_/",
+    },
+    {
+      nume: "Aurelian Teleptean ",
+      poza: "",
+      departament: "Construcție",
+      instagram: "https://www.instagram.com/_aure__23/",
+      facebook: "https://ro-ro.facebook.com/aurelian.tlpt.1",
+    },
+    {
+      nume: "Alin Ulici",
+      poza: "",
+      departament: "Programare",
+      instagram: "https://www.instagram.com/alinulici/",
+    },
+    
+    
+    ];
     return _this;
   }
 
