@@ -17,14 +17,14 @@ var Alumni = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Alumni.__proto__ || Object.getPrototypeOf(Alumni)).call(this, props));
 
     _this.alumni = [{
-      nume: "Darius Giurgi - Mentor alumni",
+      nume: "Darius Giurgi - Mentor Alumni",
       poza: "poze/mentori/darius.jpg",
       facultate: "Facultatea de Inginerie Industrială și Robotică, UPB",
       instagram: "https://www.instagram.com/darius_giurgi/",
       facebook: "https://www.facebook.com/profile.php?id=100089605624877",
     },
     {
-      nume: "Silviu Pontoș - Mentor alumni",
+      nume: "Silviu Pontoș - Mentor Alumni",
       poza: "poze/membri/silviuPontos.JPG",
       facultate: "Facultatea de Inginerie Industrială și Robotică , UPB",
       instagram: "https://www.instagram.com/_sipandrei_/",
@@ -32,7 +32,7 @@ var Alumni = function (_React$Component) {
       github: "https://github.com/sipandrei",
     },
     {
-      nume: "Alin Fonta - Mentor alumni",
+      nume: "Alin Fonta - Mentor Alumni",
       poza: "poze/alumni/alin.jpeg",
       facultate: "Facultatea de Inginerie Industrială și Robotică, UPB",
       instagram: "https://www.instagram.com/alinfonta/",
