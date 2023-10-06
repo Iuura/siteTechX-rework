@@ -68,7 +68,7 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com",
     },
     {
-      nume: "Antonio Ivașcu",
+      nume: "Ivașcu Antonio",
       poza: "poze/membri/antonio.JPG",
       departament: "Construcție",
       instagram: "https://www.instagram.com/antonioivascu_/",
