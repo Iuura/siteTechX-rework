@@ -1,13 +1,13 @@
 :root {
-  --main-color: #679bf1;
-  --secondary-color: #ffc60a;
+  --main-color: #2D2D2D;
+  --secondary-color: #ffc309;
   --accent-color: #2D2D2D;
   --light-color: whitesmoke;
 }
 
 [data-theme="dark"] {
-  --main-color: #679bf1;
-  --secondary-color: #ffc60a;
+  --main-color: #2D2D2D;
+  --secondary-color: #ffc309;
   --accent-color: #2D2D2D;
   --light-color: whitesmoke;
 }
@@ -674,7 +674,7 @@ a.callToAction {
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #ffc60a;
+  background-color: #ffc309;
   opacity: 70%;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -781,7 +781,7 @@ a.callToAction {
   text-align: center;
   margin-top: 1rem;
   padding: 0.5em;
-  background-color: #ffc60a;
+  background-color: #ffc309;
   margin-left: auto;
   margin-right: auto;
   border-radius: 2rem;
