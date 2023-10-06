@@ -54,18 +54,18 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/luca.ilies.54",
     },
     {
-      nume: "Ulici Alin",
-      poza: "poze/membri/placeholder.jpeg",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/alinulici/",
-      facebook: "https://www.facebook.com",
-    },
-    {
       nume: "Pop Cristian",
       poza: "poze/membri/placeholder.jpeg",
       departament: "Programare",
       instagram: "https://www.instagram.com/cristi_._pop/",
       github: "https://www.github.com/Cristi3956",
+    },
+    {
+      nume: "Ulici Alin",
+      poza: "poze/membri/placeholder.jpeg",
+      departament: "Programare",
+      instagram: "https://www.instagram.com/alinulici/",
+      facebook: "https://www.facebook.com",
     },
     {
       nume: "Ivașcu Antonio",
