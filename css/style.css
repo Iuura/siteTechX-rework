@@ -355,7 +355,7 @@ form {
   position: relative;
   height: 88vh;
   display: flex;
-  background-color: #2d2d2d;
+  background-color: #4d4b4b;
 }
 
 .banner-image {
@@ -688,7 +688,7 @@ a.callToAction {
   display: block;
 }
 .dropdown-content a:hover {
-  background-color: #717171;
+  background-color: whitesmoke;
 }
 #sez7 {
   margin-left: 50px;
