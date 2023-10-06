@@ -16,12 +16,35 @@ var Membri = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Membri.__proto__ || Object.getPrototypeOf(Membri)).call(this, props));
 
-    _this.membri = [{
+    _this.membri = [
+    {
       nume: "Ardelean Raluca",
       poza: "poze/membri/raluca.JPG",
       departament: "Marketing",
       instagram: "https://www.instagram.com/ralucardelean/",
       facebook: "https://www.facebook.com/raluca.ardelean.7146",
+    },
+    {
+      nume: "Lihet Denisa",
+      poza: "poze/membri/denisa.JPG",
+      departament: "Marketing",
+      instagram: "https://www.instagram.com/deniii18_/",
+      facebook: "https://www.facebook.com/denisa.lihet.3",
+    },
+    {
+      nume: "Iura Cristian",
+      poza: "poze/membri/iura.jpeg",
+      departament: "Media",
+      instagram: "https://www.instagram.com/christe.iura/",
+      facebook: "https://www.facebook.com//chr.iura",
+      github: "https://www.github.com/Christe07",
+    },
+    {
+      nume: "Stan Alexandru",
+      poza: "poze/membri/bojnet.jpeg",
+      departament: "Media",
+      instagram: "https://www.instagram.com/stan_alex_/",
+      facebook: "https://www.facebook.com",
     },
     {
       nume: "Ilieș Luca",
@@ -31,26 +54,25 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/luca.ilies.54",
     },
     {
-      nume: "Iura Cristian",
-      poza: "poze/membri/iura.jpeg",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/christe.iura/",
-      facebook: "https://www.facebook.com//chr.iura",
-      github: "https://www.github.com",
+      nume: "Ulici Alin",
+      poza: "poze/membri/placeholder.jpeg",
+      departament: "Programare",
+      instagram: "https://www.instagram.com/alinulici/",
+      facebook: "https://www.facebook.com",
+    },
+    {
+      nume: "Pop Cristian",
+      poza: "poze/membri/placeholder.jpeg",
+      departament: "Programare",
+      instagram: "https://www.instagram.com/cristi_._pop/",
+      facebook: "https://www.facebook.com",
     },
     {
       nume: "Antonio Ivașcu",
       poza: "poze/membri/antonio.JPG",
-      departament: "Construcție/Programare",
+      departament: "Construcție",
       instagram: "https://www.instagram.com/antonioivascu_/",
       facebook: "https://www.facebook.com/antonio.ivascu.5",
-    },
-    {
-      nume: "Lihet Denisa",
-      poza: "poze/membri/denisa.JPG",
-      departament: "Marketing",
-      instagram: "https://www.instagram.com/deniii18_/",
-      facebook: "https://www.facebook.com/denisa.lihet.3",
     },
     {
       nume: "Plopișan Paul",
@@ -67,35 +89,12 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/dragus.ionut.75",
     },
     {
-      nume: "Stan Alexandru",
-      poza: "poze/membri/bojnet.jpeg",
-      departament: "Media",
-      instagram: "https://www.instagram.com/stan_alex_/",
-      facebook: "https://www.facebook.com",
-    },
-    {
       nume: "Teleptean Aurelian",
       poza: "poze/membri/aure.jpeg",
       departament: "Construcție",
       instagram: "https://www.instagram.com/_aure__23/",
       facebook: "https://www.facebook.com/aurelian.tlpt.1",
     },
-    {
-      nume: "Pop Cristian",
-      poza: "poze/membri/placeholder.jpeg",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/cristi_._pop/",
-      facebook: "https://www.facebook.com",
-    },
-    {
-      nume: "Ulici Alin",
-      poza: "poze/membri/placeholder.jpeg",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/alinulici/",
-      facebook: "https://www.facebook.com",
-    },
-    
-    
     ];
     return _this;
   }
