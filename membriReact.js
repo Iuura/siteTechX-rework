@@ -65,7 +65,7 @@ var Membri = function (_React$Component) {
       poza: "poze/membri/placeholder.jpeg",
       departament: "Programare",
       instagram: "https://www.instagram.com/cristi_._pop/",
-      facebook: "https://www.facebook.com",
+      github: "https://www.github.com/Cristi3956",
     },
     {
       nume: "Ivașcu Antonio",
