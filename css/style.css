@@ -189,9 +189,9 @@ header h2 a {
   margin-left: 4vw;
 }
 
-header * a:hover {
+/*header * a:hover {
   text-decoration: underline wavy;
-}
+}*/
 
 .intunecat {
   background-color: var(--main-color);
@@ -355,7 +355,7 @@ form {
   position: relative;
   height: 88vh;
   display: flex;
-  background-color: #679bf1;
+  background-color: #2d2d2d;
 }
 
 .banner-image {
@@ -688,7 +688,7 @@ a.callToAction {
   display: block;
 }
 .dropdown-content a:hover {
-  background-color: #679bf1;
+  background-color: #717171;
 }
 #sez7 {
   margin-left: 50px;
