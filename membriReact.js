@@ -81,6 +81,13 @@ var Membri = function (_React$Component) {
       facebook: "https://www.facebook.com/aurelian.tlpt.1",
     },
     {
+      nume: "Pop Cristian",
+      poza: "poze/membri/placeholder.jpeg",
+      departament: "Programare",
+      instagram: "https://www.instagram.com/cristi_._pop/",
+      facebook: "https://www.facebook.com",
+    },
+    {
       nume: "Ulici Alin",
       poza: "poze/membri/placeholder.jpeg",
       departament: "Programare",
