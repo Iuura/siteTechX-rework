@@ -36,6 +36,7 @@ var Membri = function (_React$Component) {
       departament: "Marketing",
       instagram: "https://www.instagram.com/christe.iura/",
       facebook: "https://www.facebook.com//chr.iura",
+      github: "https://www.github.com",
     },
     {
       nume: "Antonio Ivașcu",
@@ -168,7 +169,7 @@ function Membru(props) {
       ) : React.createElement("span", null),
       hasInstagram ? React.createElement(
         "a",
-        { href: props.membru.instagram },
+        { href: props.membru.instagram },//INSTAGRAM MEMBRI 
         React.createElement(
           "svg",
           {
