@@ -18,6 +18,13 @@ var Membri = function (_React$Component) {
 
     _this.membri = [
     {
+      nume: "Ilieș Luca",
+      poza: "poze/membri/lucaIlies.JPG",
+      departament: "Lider Sezon #8/Programare",
+      instagram: "https://www.instagram.com/luca_ilies/",
+      facebook: "https://www.facebook.com/luca.ilies.54",
+    },  
+    {
       nume: "Ardelean Raluca",
       poza: "poze/membri/raluca.JPG",
       departament: "Marketing",
@@ -45,13 +52,6 @@ var Membri = function (_React$Component) {
       departament: "Media",
       instagram: "https://www.instagram.com/stan_alex_/",
       facebook: "https://www.facebook.com",
-    },
-    {
-      nume: "Ilieș Luca",
-      poza: "poze/membri/lucaIlies.JPG",
-      departament: "Programare",
-      instagram: "https://www.instagram.com/luca_ilies/",
-      facebook: "https://www.facebook.com/luca.ilies.54",
     },
     {
       nume: "Pop Cristian",
