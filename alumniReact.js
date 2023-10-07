@@ -90,7 +90,7 @@ var Alumni = function (_React$Component) {
     {
       nume: "Bogdan Giurgi",
       poza: "poze/membr.png",
-      facultate: "Automatică și calculatoare, UTCN",
+      facultate: "Technical Computer Science, University of Twente",
       instagram: "https://www.instagram.com/vosi8783/",
     },
     {
