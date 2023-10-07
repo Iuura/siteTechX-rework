@@ -26,7 +26,7 @@ var Alumni = function (_React$Component) {
     {
       nume: "Silviu Pontoș - Mentor Alumni",
       poza: "poze/membri/silviuPontos.JPG",
-      facultate: "Inginerie Industrială și Robotică , UPB",
+      facultate: "Inginerie Industrială și Robotică, UPB",
       instagram: "https://www.instagram.com/_sipandrei_/",
       facebook: "https://www.facebook.com/silviu.pontos/",
       github: "https://github.com/sipandrei",
@@ -114,7 +114,7 @@ var Alumni = function (_React$Component) {
     {
       nume: "Florentina Dunca",
       poza: "poze/alumni/tina.jpeg",
-      facultate: "Inginerie Industrială și Robotică , UPB",
+      facultate: "Inginerie Industrială și Robotică, UPB",
       instagram: "https://www.instagram.com/d.ttina/",
       facebook: "https://www.facebook.com/d.ttinaa",
     },
