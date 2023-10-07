@@ -1058,11 +1058,3 @@ a.callToAction {
 /*
 CSS FOR SEASON 8
 */
-
-.ribbon_galben_s8 {
-  position: absolute;
-  z-index: 1;
-  width: 40vw;
-  max-width: 650px;
-  min-width: 400px;
-}
