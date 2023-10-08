@@ -431,7 +431,7 @@ form {
 }
 .ribbon-top-s8 {
   position: absolute;
-  top: 1090px;
+  bottom: -490px;
   left: 0;
 }
 
