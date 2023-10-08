@@ -431,7 +431,7 @@ form {
 }
 .ribbon-top-s8 {
   position: absolute;
-  top: 990px;
+  top: 1101px;
   left: 0;
 }
 
@@ -479,6 +479,9 @@ form {
 }
 #spacerS8 {
   background-image: url("../poze/svg/spacer_s8.svg");
+}
+#spacerTopS8 {
+  background-image: url("../poze/svg/spacerTopS8.svg");
 }
 
 @keyframes waves {
