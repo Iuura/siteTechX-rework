@@ -1107,13 +1107,28 @@ CSS FOR SEASON 8
   object-fit: cover;
   display: block;
   position: relative;
+  margin: 10px auto;
 }
 
-.logoS8 {
-  max-width: 85%;
-  height: auto;
+.banner {
+  position: relative;
+}
+
+.banner-ribbon {
+  display: block;
+  margin: 10px auto;
+}
+
+
+.filter {
+  margin: 10px auto;
 }
 
 .responsive-text {
-  font-size: 80vw; /* You can adjust the value as needed */
+  font-size: 4vw;
+}
+
+.logoS8 {
+  max-width: 100%;
+  height: auto;
 }
