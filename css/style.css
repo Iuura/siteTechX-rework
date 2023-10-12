@@ -1114,3 +1114,6 @@ CSS FOR SEASON 8
   height: auto;
 }
 
+.responsive-text {
+  font-size: 80vw; /* You can adjust the value as needed */
+}
