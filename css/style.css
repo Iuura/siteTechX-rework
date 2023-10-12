@@ -1109,7 +1109,8 @@ CSS FOR SEASON 8
   position: relative;
 }
 
-.logoS8 {
+.filter .logoS8 {
   max-width: 100%;
   height: auto;
 }
+
