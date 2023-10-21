@@ -1179,8 +1179,9 @@ CSS FOR SEASON 8
 }
 
 .logoS8 {
-  height: 65%;
-  width: 65%;
+  max-width: 50%;
+  height: auto;
+  width: auto;
 }
 
 .filter s8 span {
@@ -1196,4 +1197,5 @@ CSS FOR SEASON 8
   height: 600px;
   position: relative;
   animation: glitch 2s infinite;
+  margin-top: 100px;
 }
