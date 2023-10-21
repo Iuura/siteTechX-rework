@@ -1,4 +1,3 @@
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -16,16 +15,16 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   /*for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }*/
-  slides[slideIndex-1].style.display = "block";
-  
+  slides[slideIndex - 1].style.display = "block";
+
 }
 //
 //
@@ -48,16 +47,16 @@ function showSlides1(m) {
   let j;
   let slides1 = document.getElementsByClassName("mySlides1");
   //let dots1 = document.getElementsByClassName("dot");
-  if (m > slides1.length) {slideIndex1 = 1}
-  if (m < 1) {slideIndex1 = slides1.length}
+  if (m > slides1.length) { slideIndex1 = 1 }
+  if (m < 1) { slideIndex1 = slides1.length }
   for (j = 0; j < slides1.length; j++) {
     slides1[j].style.display = "none";
   }
   //for (j = 0; j < dots1.length; j++) {
-    //dots1[j].className = dots1[j].className.replace(" active", "");
+  //dots1[j].className = dots1[j].className.replace(" active", "");
   //}
-  slides1[slideIndex1-1].style.display = "block";
- 
+  slides1[slideIndex1 - 1].style.display = "block";
+
 }
 //
 //
@@ -81,16 +80,16 @@ function showSlides2(p) {
   let k;
   let slides2 = document.getElementsByClassName("mySlides2");
   //let dots1 = document.getElementsByClassName("dot");
-  if (p > slides2.length) {slideIndex2 = 1}
-  if (p < 1) {slideIndex2 = slides2.length}
+  if (p > slides2.length) { slideIndex2 = 1 }
+  if (p < 1) { slideIndex2 = slides2.length }
   for (k = 0; k < slides2.length; k++) {
     slides2[k].style.display = "none";
   }
   //for (j = 0; j < dots1.length; j++) {
-    //dots1[j].className = dots1[j].className.replace(" active", "");
+  //dots1[j].className = dots1[j].className.replace(" active", "");
   //}
-  slides2[slideIndex2-1].style.display = "block";
- 
+  slides2[slideIndex2 - 1].style.display = "block";
+
 }
 
 
@@ -111,7 +110,7 @@ function off() {
   document.getElementById("overlay2").style.display = "none";
 }
 
- 
+
 
 
 var slidePosition = 1;
@@ -138,32 +137,32 @@ function SlideShow(n) {
   var i;
   var slideS = document.getElementsByClassName("Containers");
   var circles = document.getElementsByClassName("dots");
-  if (n > slideS.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slideS.length}
+  if (n > slideS.length) { slidePosition = 1 }
+  if (n < 1) { slidePosition = slideS.length }
   for (i = 0; i < slideS.length; i++) {
-      slideS[i].style.display = "none";
+    slideS[i].style.display = "none";
   }
   for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
+    circles[i].className = circles[i].className.replace(" enable", "");
   }
-  slideS[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
+  slideS[slidePosition - 1].style.display = "block";
+  circles[slidePosition - 1].className += " enable";
+}
 function SlideShow1(n) {
   var i;
   var slideS = document.getElementsByClassName("Containers1");
   var circles = document.getElementsByClassName("dots1");
-  if (n > slideS.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slideS.length}
+  if (n > slideS.length) { slidePosition = 1 }
+  if (n < 1) { slidePosition = slideS.length }
   for (i = 0; i < slideS.length; i++) {
-      slideS[i].style.display = "none";
+    slideS[i].style.display = "none";
   }
   for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
+    circles[i].className = circles[i].className.replace(" enable", "");
   }
-  slideS[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
+  slideS[slidePosition - 1].style.display = "block";
+  circles[slidePosition - 1].className += " enable";
+}
 
 var b = 0;
 var txt = 'Sezon #7 (2022-2023)';

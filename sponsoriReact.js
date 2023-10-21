@@ -17,31 +17,31 @@ var Sponsori = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Sponsori.__proto__ || Object.getPrototypeOf(Sponsori)).call(this, props));
 
     _this.sponsori = [
-    {
-      nume: "Plimob",
-      poza: "poze/sponsori/plimob.png",
-      facebook: "https://www.plimob.ro/ro/home"
-    },
-    {
-      nume: "Bazil1992",
-      poza: "poze/sponsori/bazil.png",
-      facebook: "https://www.facebook.com/Bazil1992"
-    }, {
-      nume: "Dent Medica",
-      poza: "poze/sponsori/dentMedica.png",
-      facebook: "https://www.dentmedica.ro/"
-    }, {
-      nume: "Colibri",
-      poza: "poze/sponsori/colibri.png",
-      facebook: "https://www.facebook.com/colibriprintshop/"
-    }, {
-      nume: "Arhi-Proiect",
-      poza: "poze/sponsori/arhi-proiect.jpeg"
-    }, {
-      nume: "Granell",
-      poza: "poze/sponsori/granell.png",
-      facebook: "granell.ro"
-    }];
+      {
+        nume: "Plimob",
+        poza: "poze/sponsori/plimob.png",
+        facebook: "https://www.plimob.ro/ro/home"
+      },
+      {
+        nume: "Bazil1992",
+        poza: "poze/sponsori/bazil.png",
+        facebook: "https://www.facebook.com/Bazil1992"
+      }, {
+        nume: "Dent Medica",
+        poza: "poze/sponsori/dentMedica.png",
+        facebook: "https://www.dentmedica.ro/"
+      }, {
+        nume: "Colibri",
+        poza: "poze/sponsori/colibri.png",
+        facebook: "https://www.facebook.com/colibriprintshop/"
+      }, {
+        nume: "Arhi-Proiect",
+        poza: "poze/sponsori/arhi-proiect.jpeg"
+      }, {
+        nume: "Granell",
+        poza: "poze/sponsori/granell.png",
+        facebook: "granell.ro"
+      }];
     return _this;
   }
 
