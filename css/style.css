@@ -1183,7 +1183,7 @@ CSS FOR SEASON 8
   max-height: 25vw;
   height: auto;
   width: auto;
-  animation: glitch 2s infinite;
+  animation: glitch 3s infinite;
 }
 
 .filter s8 span {
@@ -1198,6 +1198,6 @@ CSS FOR SEASON 8
   font-size: 7rem;
   height: 550px;
   position: relative;
-  animation: glitch 2s infinite;
+  animation: glitch 3s infinite;
   margin-top: 85px;
 }
