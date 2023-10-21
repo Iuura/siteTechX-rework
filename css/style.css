@@ -1182,3 +1182,18 @@ CSS FOR SEASON 8
   height: 65%;
   width: 65%;
 }
+
+.filter s8 span {
+  z-index: 2;
+  text-align: center;
+  display: block;
+  margin: auto;
+  align-self: center;
+  color: #ffc309;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 7rem;
+  height: 600px;
+  position: relative;
+  animation: glitch 2s infinite;
+}
