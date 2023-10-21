@@ -1180,6 +1180,7 @@ CSS FOR SEASON 8
 
 .logoS8 {
   max-width: 50vw;
+  max-height: 21vw;
   height: auto;
   width: auto;
   animation: glitch 2s infinite;
