@@ -89,7 +89,7 @@ var Alumni = function (_React$Component) {
     },
     {
       nume: "Bogdan Giurgi",
-      poza: "poze/alumni/bogdan_giurgi.png",
+      poza: "poze/membri/placeholder.jpeg",
       facultate: "Technical Computer Science, University of Twente",
       instagram: "https://www.instagram.com/vosi8783/",
     },
@@ -127,7 +127,7 @@ var Alumni = function (_React$Component) {
     },
     {
       nume: "Raul Pituc",
-      poza: "poze/alumni/pituc.jpg",
+      poza: "poze/alumni/pituc.png",
       instagram: "https://www.instagram.com/raul.pituc/",
       facebook: "https://m.facebook.com/raul.pituc.3/",
     },
