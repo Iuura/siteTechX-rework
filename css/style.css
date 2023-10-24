@@ -1202,22 +1202,6 @@ CSS FOR SEASON 8
   margin-top: 90px;
 }
 
-.video-embed {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 video-container {
   text-align: center;
 }
