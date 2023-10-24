@@ -83,19 +83,19 @@ var Alumni = function (_React$Component) {
 
     {
       nume: "Mihaela Trifoi",
-      poza: "poze/alumni/miha.jpg",
+      poza: "poze/alumni/miha.JPG",
       facultate: "Automatică și calculatoare, UTCN",
       instagram: "https://www.instagram.com/miha._.trifoi/?img_index=1",
     },
     {
       nume: "Bogdan Giurgi",
-      poza: "poze/membr.png",
+      poza: "poze/alumni/bogdan_giurgi.png",
       facultate: "Technical Computer Science, University of Twente",
       instagram: "https://www.instagram.com/vosi8783/",
     },
     {
       nume: "Bogdan Mircea",
-      poza: "poze/alumni/mircea.jpg",
+      poza: "poze/alumni/mircea.JPG",
       facultate: "Automatică și calculatoare, UTCN",
       instagram: "https://www.instagram.com/imbogdanm/",
     },
@@ -127,7 +127,7 @@ var Alumni = function (_React$Component) {
     },
     {
       nume: "Raul Pituc",
-      poza: "poze/alumni/pituc.jpeg",
+      poza: "poze/alumni/pituc.jpg",
       instagram: "https://www.instagram.com/raul.pituc/",
       facebook: "https://m.facebook.com/raul.pituc.3/",
     },
