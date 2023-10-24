@@ -1178,11 +1178,7 @@ CSS FOR SEASON 8
   position: relative;
 }
 
-.filter {
-  text-align: center;
-}
-
-.logoS8 {
+.logoS8 img{
   max-width: 60vw;
   max-height: 25vw;
   height: auto;
