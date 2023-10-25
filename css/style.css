@@ -1178,11 +1178,7 @@ CSS FOR SEASON 8
   position: relative;
 }
 
-.filter-space {
-  margin-bottom: 10px;
-}
-
-.filter-space logoS8 img{
+.logoS8 img{
   max-width: 60vw;
   max-height: 25vw;
   height: auto;
@@ -1192,7 +1188,7 @@ CSS FOR SEASON 8
   margin: 0 auto;
 }
 
-.filter-space s8 span {
+.filter s8 span {
   z-index: 2;
   text-align: center;
   display: block;
