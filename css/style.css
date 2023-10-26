@@ -480,13 +480,13 @@ form {
 
 @keyframes waves {
   0% {
-      transform: translateY(0);
+      transform: translateX(0);
   }
   50% {
-      transform: translateY(-15px);
+      transform: translateX(-15px);
   }
   100% {
-      transform: translateY(0);
+      transform: translateX(0);
   }
 }
 
