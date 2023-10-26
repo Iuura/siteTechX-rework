@@ -480,7 +480,7 @@ form {
 
 .spacer {
   aspect-ratio: 800/50;
-  /*animation: waves 4s infinite;*/
+  animation: waves 6s infinite;
   width: 100vw;
   object-fit: cover;
   margin: 0;
