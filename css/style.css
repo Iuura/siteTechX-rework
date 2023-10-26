@@ -411,7 +411,7 @@ form {
 
 .filter h1 span {
   display: block;
-  animation: glitch 2s infinite;
+  animation: glitch 3s infinite;
 }
 
 .filter s8 {
@@ -478,31 +478,31 @@ form {
   right: 0;
 }
 
-@keyframes waves {
+@keyframes waves_up {
   0% {
-      transform: translateX(0);
+      transform: translateY(0);
   }
   50% {
-      transform: translateX(-15px);
+      transform: translateY(-7px);
   }
   100% {
-      transform: translateX(0);
+      transform: translateY(0);
+  }
+}
+@keyframes waves_down {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(7px);
+  }
+  100% {
+      transform: translateY(0);
   }
 }
 
-/*.wave {
-  width: 100%;
-  height: 100px;
-  background-color: #3498db;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  animation: waves 4s linear infinite;
-}*/
-
 .spacer {
   aspect-ratio: 800/50;
-  animation: waves 6s infinite;
   width: 100vw;
   object-fit: cover;
   margin: 0;
@@ -514,14 +514,17 @@ form {
 
 #teamDivider {
   background-image: url("../poze/svg/spacer-sponsori-jos.svg");
+  animation: waves_up 5s infinite;
 }
 
 #dividerMentori {
   background-image: url("../poze/svg/wave-mentori.svg");
+  animation: waves_down 5s infinite;
 }
 
 #dividerDescriere {
   background-image: url("../poze/svg/wave-sponsori.svg");
+  animation: waves_down 5s infinite;
 }
 
 #spacerEchipa {
@@ -535,6 +538,7 @@ form {
 
 #spacerFooterGalben {
   background-image: url("../poze/svg/spacer_footer_galben.svg");
+  animation: waves_up 5s infinite;
 }
 
 #spacerS8 {
@@ -543,10 +547,12 @@ form {
 
 #spacerTopS8 {
   background-image: url("../poze/svg/spacerTopS8.svg");
+  animation: waves_down 5s infinite;
 }
 
 #spacerS8grey {
   background-image: url("../poze/svg/spacerS8grey.svg");
+  animation: waves_down 5s infinite;
 }
 
 .tns-nav {
@@ -1186,14 +1192,15 @@ CSS FOR SEASON 8
   position: relative;
 }
 
-.logoS8 img{
+.centerstageS8 {
+  display: block;
+  margin-left: 20vw;
+  margin-top: 35vh;
   max-width: 60vw;
   max-height: 25vw;
   height: auto;
   width: auto;
-  animation: glitch 3s infinite;
-  display: block;
-  margin: 0 auto;
+  animation: glitch 4s infinite;
 }
 
 .filter s8 span {
@@ -1208,7 +1215,7 @@ CSS FOR SEASON 8
   font-size: 7rem;
   height: 600px;
   position: relative;
-  animation: glitch 3s infinite;
+  animation: glitch 4s infinite;
   margin-top: 90px;
 }
 
