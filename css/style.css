@@ -483,7 +483,7 @@ form {
       transform: translateY(0);
   }
   50% {
-      transform: translateY(-7px);
+      transform: translateY(-9px);
   }
   100% {
       transform: translateY(0);
@@ -494,7 +494,7 @@ form {
       transform: translateY(0);
   }
   50% {
-      transform: translateY(7px);
+      transform: translateY(9px);
   }
   100% {
       transform: translateY(0);
@@ -514,17 +514,17 @@ form {
 
 #teamDivider {
   background-image: url("../poze/svg/spacer-sponsori-jos.svg");
-  animation: waves_up 5s infinite;
+  animation: waves_up 4s infinite;
 }
 
 #dividerMentori {
   background-image: url("../poze/svg/wave-mentori.svg");
-  animation: waves_down 5s infinite;
+  animation: waves_down 4s infinite;
 }
 
 #dividerDescriere {
   background-image: url("../poze/svg/wave-sponsori.svg");
-  animation: waves_down 5s infinite;
+  animation: waves_down 4s infinite;
 }
 
 #spacerEchipa {
@@ -538,7 +538,7 @@ form {
 
 #spacerFooterGalben {
   background-image: url("../poze/svg/spacer_footer_galben.svg");
-  animation: waves_up 5s infinite;
+  animation: waves_up 4s infinite;
 }
 
 #spacerS8 {
@@ -547,12 +547,12 @@ form {
 
 #spacerTopS8 {
   background-image: url("../poze/svg/spacerTopS8.svg");
-  animation: waves_down 5s infinite;
+  animation: waves_down 4s infinite;
 }
 
 #spacerS8grey {
   background-image: url("../poze/svg/spacerS8grey.svg");
-  animation: waves_down 5s infinite;
+  animation: waves_down 4s infinite;
 }
 
 .tns-nav {
