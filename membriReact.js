@@ -26,7 +26,7 @@ var Membri = function (_React$Component) {
       },
       {
         nume: "Ardelean Raluca",
-        poza: "poze/membri/raluca.JPG",
+        poza: "poze/membri/RalucaS8.jpg",
         departament: "Marketing",
         instagram: "https://www.instagram.com/ralucardelean/",
         facebook: "https://www.facebook.com/raluca.ardelean.7146",
@@ -48,7 +48,7 @@ var Membri = function (_React$Component) {
       },
       {
         nume: "Stan Alexandru",
-        poza: "poze/membri/placeholder.jpeg",
+        poza: "poze/membri/StanS8.jpg",
         departament: "Media",
         instagram: "https://www.instagram.com/stan_alex_/",
         facebook: "https://www.facebook.com",
@@ -90,7 +90,7 @@ var Membri = function (_React$Component) {
       },
       {
         nume: "Drăguș Ionuț",
-        poza: "poze/membri/ionut.png",
+        poza: "poze/membri/IonutS8.jpg",
         departament: "Construcție",
         instagram: "https://www.instagram.com/ionut_dragus11/",
         facebook: "https://www.facebook.com/dragus.ionut.75",
