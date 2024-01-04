@@ -28,7 +28,7 @@ var Sponsori = function (_React$Component) {
         facebook: "https://www.facebook.com/avivasrl.ro"
       }, {
         nume: "La Bojăneț",
-        poza: "",
+        poza: "poze/sponsori/Logo Bojanet.png",
         facebook: "https://www.facebook.com/p/Macelaria-Stan-La-Bojanet-100072334990484/"
       }, {
         nume: "Colibri",
@@ -43,7 +43,7 @@ var Sponsori = function (_React$Component) {
         poza: "poze/sponsori/Logo Xeotype.png",
         facebook: "https://www.facebook.com/xeotype/"
       }, {
-        nume: "Iura",
+        nume: "Iura Industrial",
         poza: "",
         facebook: ""
       }];
