@@ -21,13 +21,12 @@ var Sponsori = function (_React$Component) {
         nume: "Brisetto",
         poza: "poze/sponsori/Logo Brisetto.png",
         facebook: "https://www.facebook.com/brisetto"
-      },
-      {
+      }, {
         nume: "Aviva",
         poza: "poze/sponsori/Logo Aviva.png",
         facebook: "https://www.facebook.com/avivasrl.ro"
       }, {
-        nume: "La Bojăneț",
+        nume: "La Bojîneț",
         poza: "poze/sponsori/Logo Bojanet.png",
         facebook: "https://www.facebook.com/p/Macelaria-Stan-La-Bojanet-100072334990484/"
       }, {
@@ -45,7 +44,7 @@ var Sponsori = function (_React$Component) {
       }, {
         nume: "Iura Industrial",
         poza: "",
-        facebook: ""
+        facebook: "https://www.facebook.com"
       }];
     return _this;
   }
@@ -108,7 +107,7 @@ function Sponsor(props) {
           "svg",
           {
             xmlns: "http://www.w3.org/2000/svg",
-            viewBox: "-6 0 30 30",
+            viewBox: "0 0 30 30",
             width: "30",
             height: "30",
             preserveAspectRatio: "xMinYMin",
