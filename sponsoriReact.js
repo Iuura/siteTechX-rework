@@ -36,7 +36,7 @@ var Sponsori = function (_React$Component) {
         facebook: "https://www.facebook.com/colibriprintshop/"
       }, {
         nume: "CNDV",
-        poza: "poze/sponsori/logo-CNDV-2019.jpg",
+        poza: "poze/sponsori/Logo CNDV.png",
         facebook: "https://www.facebook.com/CNDVSIGHET"
       }, {
         nume: "Xeotype",
