@@ -18,29 +18,34 @@ var Sponsori = function (_React$Component) {
 
     _this.sponsori = [
       {
-        nume: "Plimob",
-        poza: "poze/sponsori/plimob.png",
-        facebook: "https://www.plimob.ro/ro/home"
+        nume: "Brisetto",
+        poza: "poze/sponsori/Logo Brisetto.png",
+        facebook: "https://www.facebook.com/brisetto"
       },
       {
-        nume: "Bazil1992",
-        poza: "poze/sponsori/bazil.png",
-        facebook: "https://www.facebook.com/Bazil1992"
+        nume: "Aviva",
+        poza: "poze/sponsori/Logo Aviva.png",
+        facebook: "https://www.facebook.com/avivasrl.ro"
       }, {
-        nume: "Dent Medica",
-        poza: "poze/sponsori/dentMedica.png",
-        facebook: "https://www.dentmedica.ro/"
+        nume: "La Bojăneț",
+        poza: "",
+        facebook: "https://www.facebook.com/p/Macelaria-Stan-La-Bojanet-100072334990484/"
       }, {
         nume: "Colibri",
         poza: "poze/sponsori/colibri.png",
         facebook: "https://www.facebook.com/colibriprintshop/"
       }, {
-        nume: "Arhi-Proiect",
-        poza: "poze/sponsori/arhi-proiect.jpeg"
+        nume: "CNDV",
+        poza: "poze/sponsori/logo-CNDV-2019.jpg",
+        facebook: "https://www.facebook.com/CNDVSIGHET"
       }, {
-        nume: "Granell",
-        poza: "poze/sponsori/granell.png",
-        facebook: "granell.ro"
+        nume: "Xeotype",
+        poza: "poze/sponsori/Logo Xeotype.png",
+        facebook: "https://www.facebook.com/xeotype/"
+      }, {
+        nume: "Iura",
+        poza: "",
+        facebook: ""
       }];
     return _this;
   }
