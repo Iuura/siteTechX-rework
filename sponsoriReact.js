@@ -99,7 +99,7 @@ function Sponsor(props) {
     ),
     React.createElement(
       "div",
-      { "class": "contact-membru" },
+      { classname: "contact-membru" },
       hasFacebook ? React.createElement(
         "a",
         { href: props.sponsor.facebook },
