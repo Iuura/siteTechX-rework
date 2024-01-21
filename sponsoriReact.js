@@ -45,7 +45,16 @@ var Sponsori = function (_React$Component) {
         nume: "Iura Industrial",
         poza: "",
         facebook: "https://www.facebook.com"
-      }];
+      }, {
+        nume: "Laguna",
+        poza: "poze/sponsori/Logo Laguna.png",
+        facebook: "https://www.facebook.com/MobilaLaguna"
+      }, {
+        nume: "Electro Mat Prompt",
+        poza: "poze/sponsori/Logo Electro.png",
+        facebook: "https://www.facebook.com"
+      }
+    ];
     return _this;
   }
 
