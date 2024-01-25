@@ -1021,6 +1021,22 @@ a.callToAction {
   user-select: none;
 }
 
+.Back2,
+.forward2 {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
 .forward,
 .forward1 {
   right: 0;
@@ -1034,6 +1050,11 @@ a.callToAction {
 
 .Back1:hover,
 .forward1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Back2:hover,
+.forward2:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
