@@ -116,6 +116,7 @@ function off() {
 var slidePosition = 1;
 SlideShow(slidePosition);
 SlideShow1(slidePosition);
+SlideShow2(slidePosition);
 
 // forward/Back controls
 function plusSlideS(n) {
@@ -124,6 +125,9 @@ function plusSlideS(n) {
 function plusSlideS1(n) {
   SlideShow1(slidePosition += n);
 }
+function plusSlideS2(n) {
+  SlideShow2(slidePosition += n);
+}
 
 //  images controls
 function currentSlide(n) {
@@ -131,6 +135,9 @@ function currentSlide(n) {
 }
 function currentSlide1(n) {
   SlideShow1(slidePosition = n);
+}
+function currentSlide2(n) {
+  SlideShow2(slidePosition = n);
 }
 
 function SlideShow(n) {
@@ -152,6 +159,22 @@ function SlideShow1(n) {
   var i;
   var slideS = document.getElementsByClassName("Containers1");
   var circles = document.getElementsByClassName("dots1");
+  if (n > slideS.length) { slidePosition = 1 }
+  if (n < 1) { slidePosition = slideS.length }
+  for (i = 0; i < slideS.length; i++) {
+    slideS[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+    circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slideS[slidePosition - 1].style.display = "block";
+  circles[slidePosition - 1].className += " enable";
+}
+
+function SlideShow2(n) {
+  var i;
+  var slideS = document.getElementsByClassName("Containers2");
+  var circles = document.getElementsByClassName("dots2");
   if (n > slideS.length) { slidePosition = 1 }
   if (n < 1) { slidePosition = slideS.length }
   for (i = 0; i < slideS.length; i++) {
