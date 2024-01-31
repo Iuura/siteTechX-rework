@@ -1,4 +1,4 @@
-import * as THREE from 'path/to/three.module.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js';
 
 // Set up the scene, camera, and renderer
 const scene = new THREE.Scene();
