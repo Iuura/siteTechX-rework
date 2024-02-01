@@ -1278,3 +1278,9 @@ video {
   display: block;
   margin: 0 auto;
 }
+.box-container {
+  width: 80vw;
+  height: 50vh;
+  margin: auto;
+  overflow: hidden;
+}
