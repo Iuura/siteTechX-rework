@@ -1297,7 +1297,7 @@ video {
 }
 
 #cameraPopup {
-  display: none;
+  display: none;  /* Set the initial display style to none */
   position: fixed;
   top: 0;
   left: 0;
@@ -1318,3 +1318,4 @@ video {
   border: none;
   cursor: pointer;
 }
+
