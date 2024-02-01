@@ -68,22 +68,18 @@
            <a href="contact">Contact</a>
          </div>
        </header>
-       <a-scene embedded arjs="sourceType: webcam">
-        <!-- Define a marker and 3D model -->
-        <a-marker preset="hiro">
-          <!-- Add your STL model using the a-entity element -->
-          <a-entity
-            scale="0.1 0.1 0.1"
-            rotation="0 0 0"
-            position="0 0.5 0"
-            gltf-model="url(modele%203d/Breloctx.stl)"
-          ></a-entity>
-        </a-marker>
-      
-        <!-- Camera preset for marker-based AR -->
-        <a-marker-camera preset="hiro"></a-marker-camera>
-      </a-scene>
-      
+       <main>
+        <a-scene embedded arjs>
+            <a-marker preset="hiro">
+                <a-entity
+                position="0 -1 0"
+                scale="0.05 0.05 0.05"
+                gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+                ></a-entity>
+            </a-marker>
+            <a-entity camera></a-entity>
+            </a-scene>
+      </main>
    <footer>
       <div id="continutFooter">
          <div id="linkuri">
