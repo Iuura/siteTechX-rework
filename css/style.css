@@ -830,7 +830,7 @@ a.callToAction {
   padding-bottom: 0;
 }
 
-.activsez7 {
+.activ {
   flex: auto;
   flex-basis: 25%;
   flex-grow: 100;
@@ -839,17 +839,18 @@ a.callToAction {
 
 }
 
-.activsez7:hover {
+.activ:hover {
   height: 150%;
   cursor: pointer;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.activsez7 img:hover {
-  height: 300px;
-  width: 400px;
+.activ img:hover {
+  height: 150%;
+  width: 150%;
   margin-bottom: 0;
+  padding-right:100px;
 }
 
 .activitati img {
@@ -987,38 +988,6 @@ a.callToAction {
 }
 .Containers2 {
   display: none;
-}
-
-.Backsez7,
-.forwardsez7 {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
-
-.Back1sez7,
-.forward1sez7 {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
 }
 
 .Back,
@@ -1363,8 +1332,70 @@ video {
   height: 200px;
   border-radius: 2rem;
 }
+.activsez7 {
+  flex: auto;
+  flex-basis: 25%;
+  flex-grow: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.activsez7:hover {
+  height: 150%;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.activsez7 img:hover {
+  height: 300px;
+  width: 400px;
+  margin-bottom: 0;
+}
+.Backsez7,
+.forwardsez7 {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+.Back1sez7,
+.forward1sez7 {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
 .forwardsez7,
 .forward1sez7 {
   right: 0;
   border-radius: 4px 0 0 4px;
+}
+
+.Backsez7:hover,
+.forward:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Back1sez7:hover,
+.forward1sez7:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
