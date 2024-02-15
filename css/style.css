@@ -830,7 +830,7 @@ a.callToAction {
   padding-bottom: 0;
 }
 
-.activ {
+.activsez7 {
   flex: auto;
   flex-basis: 25%;
   flex-grow: 100;
@@ -839,18 +839,17 @@ a.callToAction {
 
 }
 
-.activ:hover {
+.activsez7:hover {
   height: 150%;
   cursor: pointer;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.activ img:hover {
-  height: 150%;
-  width: 150%;
+.activsez7 img:hover {
+  height: 300px;
+  width: 400px;
   margin-bottom: 0;
-  padding-right:100px;
 }
 
 .activitati img {
@@ -988,6 +987,38 @@ a.callToAction {
 }
 .Containers2 {
   display: none;
+}
+
+.Backsez7,
+.forwardsez7 {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+.Back1sez7,
+.forward1sez7 {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
 }
 
 .Back,
@@ -1331,4 +1362,9 @@ video {
   width: 300px;
   height: 200px;
   border-radius: 2rem;
+}
+.forwardsez7,
+.forward1sez7 {
+  right: 0;
+  border-radius: 4px 0 0 4px;
 }
