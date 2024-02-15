@@ -790,7 +790,7 @@ a.callToAction {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+  z-index: 10;
   cursor: pointer;
 }
 
@@ -847,9 +847,10 @@ a.callToAction {
 }
 
 .activ img:hover {
-  height: 300px;
-  width: 400px;
+  height: 150%;
+  width: 150%;
   margin-bottom: 0;
+  padding-right:100px;
 }
 
 .activitati img {
@@ -992,7 +993,6 @@ a.callToAction {
 .Back,
 .forward {
   cursor: pointer;
-  position: absolute;
   top: 48%;
   width: auto;
   margin-top: -23px;
@@ -1008,7 +1008,6 @@ a.callToAction {
 .Back1,
 .forward1 {
   cursor: pointer;
-  position: absolute;
   top: 48%;
   width: auto;
   margin-top: -23px;
@@ -1024,7 +1023,6 @@ a.callToAction {
 .Back2,
 .forward2 {
   cursor: pointer;
-  position: absolute;
   top: 48%;
   width: auto;
   margin-top: -23px;
@@ -1319,3 +1317,18 @@ video {
   cursor: pointer;
 }
 
+.activitatisez8{
+  display: flex;
+  width:100%;
+  text-align: center;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+  background-color: #ffc309;
+
+}
+.activitatisez8 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 2rem;
+}
