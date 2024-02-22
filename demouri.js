@@ -92,7 +92,34 @@ function showSlides2(p) {
 
 }
 
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
 
+// Next/previous controls
+function plusSlides3(p) {
+  showSlides3(slideIndex3 += p);
+}
+
+// Thumbnail image controls
+function currentSlide3(p) {
+  showSlides3(slideIndex3 = p);
+}
+
+function showSlides3(p) {
+  let k;
+  let slides3 = document.getElementsByClassName("mySlides3");
+  //let dots1 = document.getElementsByClassName("dot");
+  if (p > slides3.length) { slideIndex3 = 1 }
+  if (p < 1) { slideIndex3 = slides3.length }
+  for (k = 0; k < slides3.length; k++) {
+    slides3[k].style.display = "none";
+  }
+  //for (j = 0; j < dots1.length; j++) {
+  //dots1[j].className = dots1[j].className.replace(" active", "");
+  //}
+  slides3[slideIndex3 - 1].style.display = "block";
+
+}
 
 
 function on() {
@@ -104,10 +131,14 @@ function on1() {
 function on2() {
   document.getElementById("overlay2").style.display = "block";
 }
+function on3() {
+  document.getElementById("overlay3").style.display = "block";
+}
 function off() {
   document.getElementById("overlay").style.display = "none";
   document.getElementById("overlay1").style.display = "none";
   document.getElementById("overlay2").style.display = "none";
+  document.getElementById("overlay3").style.display = "none";
 }
 
 
@@ -117,6 +148,7 @@ var slidePosition = 1;
 SlideShow(slidePosition);
 SlideShow1(slidePosition);
 SlideShow2(slidePosition);
+SlideShow3(slidePosition);
 
 // forward/Back controls
 function plusSlideS(n) {
@@ -126,6 +158,9 @@ function plusSlideS1(n) {
   SlideShow1(slidePosition += n);
 }
 function plusSlideS2(n) {
+  SlideShow2(slidePosition += n);
+}
+function plusSlideS3(n) {
   SlideShow2(slidePosition += n);
 }
 
@@ -138,6 +173,9 @@ function currentSlide1(n) {
 }
 function currentSlide2(n) {
   SlideShow2(slidePosition = n);
+}
+function currentSlide3(n) {
+  SlideShow(slidePosition = n);
 }
 
 function SlideShow(n) {
@@ -175,6 +213,22 @@ function SlideShow2(n) {
   var i;
   var slideS = document.getElementsByClassName("Containers2");
   var circles = document.getElementsByClassName("dots2");
+  if (n > slideS.length) { slidePosition = 1 }
+  if (n < 1) { slidePosition = slideS.length }
+  for (i = 0; i < slideS.length; i++) {
+    slideS[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+    circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slideS[slidePosition - 1].style.display = "block";
+  circles[slidePosition - 1].className += " enable";
+}
+
+function SlideShow3(n) {
+  var i;
+  var slideS = document.getElementsByClassName("Containers3");
+  var circles = document.getElementsByClassName("dots3");
   if (n > slideS.length) { slidePosition = 1 }
   if (n < 1) { slidePosition = slideS.length }
   for (i = 0; i < slideS.length; i++) {
