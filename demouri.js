@@ -161,7 +161,7 @@ function plusSlideS2(n) {
   SlideShow2(slidePosition += n);
 }
 function plusSlideS3(n) {
-  SlideShow2(slidePosition += n);
+  SlideShow3(slidePosition += n);
 }
 
 //  images controls
@@ -175,7 +175,7 @@ function currentSlide2(n) {
   SlideShow2(slidePosition = n);
 }
 function currentSlide3(n) {
-  SlideShow(slidePosition = n);
+  SlideShow3(slidePosition = n);
 }
 
 function SlideShow(n) {
