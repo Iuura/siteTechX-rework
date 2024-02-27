@@ -52,7 +52,11 @@ var Sponsori = function (_React$Component) {
       }, {
         nume: "Electro Mat Prompt",
         poza: "poze/sponsori/Logo Electro.png",
-        facebook: "https://www.facebook.com"
+        facebook: "https://www.facebook.com/electromatprompt"
+      }, {
+        nume: "Electrogrup",
+        poza: "poze/sponsori/Electrogrup.png",
+        facebook: "https://www.facebook.com/electrogrupromania"
       }
     ];
     return _this;
