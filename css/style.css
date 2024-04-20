@@ -680,10 +680,17 @@ a.callToAction {
   display: none;
 }
 
+.mySlides4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: none;
+}
+
 .mySlides img,
 .mySlides1 img,
 .mySlides2 img,
-.mySlides3 img {
+.mySlides3 img,
+.mySlides4 img {
   left: 0;
 
 
@@ -828,6 +835,19 @@ a.callToAction {
 }
 
 #overlay3 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  cursor: pointer;
+}
+
+#overlay4 {
   position: fixed;
   display: none;
   width: 100%;
@@ -1006,6 +1026,13 @@ a.callToAction {
   margin-right: auto;
 }
 
+.slideshow-Container4 {
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Containers {
   display: none;
 }
@@ -1017,6 +1044,9 @@ a.callToAction {
   display: none;
 }
 .Containers3 {
+  display: none;
+}
+.Containers4 {
   display: none;
 }
 
@@ -1080,10 +1110,26 @@ a.callToAction {
   user-select: none;
 }
 
+.Back4,
+.forward4 {
+  cursor: pointer;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
 .forward,
 .forward1,
 .forward2,
-.forward3 {
+.forward3,
+.forward4 {
   right: 0;
   border-radius: 4px 0 0 4px;
 }
@@ -1105,6 +1151,11 @@ a.callToAction {
 
 .Back3:hover,
 .forward3:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Back4:hover,
+.forward4:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -1161,6 +1212,17 @@ a.callToAction {
   transition: background-color 0.5s ease;
 }
 
+.dots4 {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
 .enable,
 .dots:hover {
   background-color: #717161;
@@ -1181,6 +1243,11 @@ a.callToAction {
   background-color: #717161;
 }
 
+.enable,
+.dots4:hover {
+  background-color: #717161;
+}
+
 /* Faint animation */
 .fade {
   -webkit-animation-name: fade;
@@ -1192,7 +1259,8 @@ a.callToAction {
 .Containers img,
 .Containers1 img,
 .Containers2 img,
-.Containers3 img{
+.Containers3 img,
+.Containers4 img {
   width: 100%;
   height: 100%;
 
