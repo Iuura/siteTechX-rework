@@ -44,7 +44,7 @@ var Membri = function (_React$Component) {
         departament: "Media",
         instagram: "https://www.instagram.com/christe.iura/",
         facebook: "https://www.facebook.com//chr.iura",
-        github: "https://www.github.com/Christe07",
+        github: "https://github.com/Iuura",
       },
       {
         nume: "Stan Alexandru",

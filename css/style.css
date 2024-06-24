@@ -778,7 +778,6 @@ a.callToAction {
 .dropdown-content a {
   border-bottom: 2px;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -938,7 +937,7 @@ a.callToAction {
 }
 
 #cont {
-  margin-left: 55%;
+  margin-left: 49%;
   margin-right: 0;
   padding-right: 0;
 }
